@@ -2,14 +2,11 @@
 permalink: conseil.html
 layout: consulting
 title: Le conseil en image en 4 étapes
-blocks:
-- type: intro
-  description: |
-    Je vous propose de vous (re)découvrir afin d’affirmer votre personnalité dans l’image que vous donnez à voir aux autres.
 
+description: |
+    Je vous propose de vous (re)découvrir afin d’affirmer votre personnalité dans l’image que vous donnez à voir aux autres.
     Le conseil en image permet de renforcer la confiance en soi et de se simplifier la vie. Soyez vous-mêmes, fiers de vous et bien dans vos baskets !
-- type: services
-  service:
+services:
   - title: Analyse des couleurs
     prices:
     - description: Analyse des couleurs approfondie + nuancier personnalisé
@@ -48,7 +45,6 @@ blocks:
     - description: Tri de la garde robe
       duration: 2h
       price: '100'
-fieldset: sections
 menu:
   header:
     weight: 3
