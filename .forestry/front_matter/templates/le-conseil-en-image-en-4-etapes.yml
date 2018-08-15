@@ -1,7 +1,7 @@
 ---
 label: Le conseil en image en 4 étapes
-hide_body: 
-is_partial: 
+hide_body: true
+is_partial: false
 fields:
 - name: permalink
   label: Permalink
@@ -16,11 +16,6 @@ fields:
 - name: title
   label: Title
   type: text
-  hidden: false
-  default: ''
-- name: description
-  label: Description
-  type: textarea
   hidden: false
   default: ''
 - name: services
@@ -60,3 +55,8 @@ fields:
     default: ''
   hidden: false
   default: ''
+- type: textarea
+  name: description
+  label: Description
+  config:
+    required: true
