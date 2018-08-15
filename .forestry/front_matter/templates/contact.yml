@@ -2,4 +2,12 @@
 label: Contact
 hide_body: true
 is_partial: false
-fields: []
+fields:
+- type: textarea
+  name: introduction
+  label: Introduction
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
