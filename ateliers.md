@@ -2,9 +2,7 @@
 title: Ateliers
 permalink: ateliers.html
 layout: workshops
-blocks:
-- type: workshops
-  workshop:
+workshops:
   - title: Analyse des couleurs
     photo: "/assets/p1020038.jpg"
     description: Découvrez l’énergie des couleurs. Chaque participant bénéficie
@@ -22,13 +20,11 @@ blocks:
     photo: "/assets/p1020051.jpg"
     description: Quelques minutes de massages que l’on s’offre chaque jour peuvent
       procurer une détente incroyable. Découvrez les gestes pour vous faire du bien.
-- type: prices
-  prices:
+prices:
   - description: Ateliers en groupes de 5 à 7 personnes (atelier offert à la personne
       qui invite)
     duration: 2h30
     price: 25€ par personne
-fieldset: sections
 menu:
   header:
     weight: 4
