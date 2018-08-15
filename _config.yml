@@ -47,4 +47,4 @@ exclude:
   - webpack.config.js
 
 include:
-- _pages
+  - _pages
