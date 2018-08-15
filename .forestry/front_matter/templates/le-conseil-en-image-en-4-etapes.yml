@@ -6,12 +6,12 @@ fields:
 - name: permalink
   label: Permalink
   type: text
-  hidden: false
+  hidden: true
   default: ''
 - name: layout
   label: Layout
   type: text
-  hidden: false
+  hidden: true
   default: ''
 - name: title
   label: Title
