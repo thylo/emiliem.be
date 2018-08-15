@@ -25,3 +25,5 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+pages:
+- maquillage.md
