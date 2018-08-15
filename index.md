@@ -24,6 +24,7 @@ home_links:
   description: Pour vous mener vers une paix intérieure, une sensation de bien être
     et une détente aux effets durables.
   link: massage.md
+  image: "/uploads/p1010825b.jpg"
 - title: Maquillage
   photo: "/assets/p1010851a.jpg"
   description: Pour apprendre à vous maquiller rapidement et naturellement avec des
