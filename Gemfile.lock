@@ -60,7 +60,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 3.8.3)
-  jekyll-menus (~> 0.6.0)
+  jekyll-menus
   tzinfo-data
 
 BUNDLED WITH
