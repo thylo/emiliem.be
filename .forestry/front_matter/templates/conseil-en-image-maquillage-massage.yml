@@ -1,25 +1,24 @@
 ---
-label: Conseil en image - maquillage - massage
-hide_body: 
-is_partial: 
+label: Home
+hide_body: true
+is_partial: false
 fields:
 - name: permalink
   label: Permalink
   type: text
-  hidden: false
+  hidden: true
   default: ''
+  config:
+    required: true
 - name: layout
   label: Layout
   type: text
-  hidden: false
+  hidden: true
   default: ''
+  config:
+    required: true
 - name: title
   label: Title
-  type: text
-  hidden: false
-  default: ''
-- name: fieldset
-  label: Fieldset
   type: text
   hidden: false
   default: ''
@@ -47,10 +46,13 @@ fields:
     type: textarea
     hidden: false
     default: ''
-  - name: link
-    label: Link
-    type: text
-    hidden: false
-    default: ''
+  - type: select
+    config:
+      source:
+        type: pages
+        section: jekyll-pages
+      required: true
+    label: link
+    name: link
   hidden: false
   default: ''
