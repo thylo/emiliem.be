@@ -1,15 +1,15 @@
 ---
-label: Ateliers
-hide_body: true
-is_partial: false
+label: Conseil en image - maquillage - massage
+hide_body: 
+is_partial: 
 fields:
 - name: permalink
   label: Permalink
   type: text
   hidden: false
   default: ''
-- name: template
-  label: Template
+- name: layout
+  label: Layout
   type: text
   hidden: false
   default: ''
@@ -18,17 +18,27 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: description
-  label: Description
+- name: fieldset
+  label: Fieldset
+  type: text
+  hidden: false
+  default: ''
+- name: intro
+  label: Intro
   type: textarea
   hidden: false
   default: ''
-- name: workshop
-  label: Workshop
+- name: home_links
+  label: Home links
   type: field_group_list
   fields:
   - name: title
     label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: photo
+    label: Photo
     type: text
     hidden: false
     default: ''
@@ -37,8 +47,10 @@ fields:
     type: textarea
     hidden: false
     default: ''
-  - type: file
-    label: image
-    name: image
+  - name: link
+    label: Link
+    type: text
+    hidden: false
+    default: ''
   hidden: false
   default: ''
