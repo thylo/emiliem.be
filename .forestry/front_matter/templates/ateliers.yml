@@ -18,12 +18,18 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: blocks
-  label: Blocks
+
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: workshop
+  label: Workshop
   type: field_group_list
   fields:
-  - name: type
-    label: Type
+  - name: title
+    label: Title
     type: text
     hidden: false
     default: ''
@@ -32,24 +38,9 @@ fields:
     type: textarea
     hidden: false
     default: ''
-  - name: workshop
-    label: Workshop
-    type: field_group_list
-    fields:
-    - name: title
-      label: Title
-      type: text
-      hidden: false
-      default: ''
-    - name: description
-      label: Description
-      type: textarea
-      hidden: false
-      default: ''
-    - type: file
-      label: image
-      name: image
-    hidden: false
-    default: ''
+  - type: file
+    label: image
+    name: image
   hidden: false
   default: ''
+
