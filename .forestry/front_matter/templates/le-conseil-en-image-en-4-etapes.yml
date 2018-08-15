@@ -18,6 +18,11 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: textarea
+  name: description
+  label: Description
+  config:
+    required: true
 - name: services
   label: Services
   type: field_group_list
@@ -55,8 +60,3 @@ fields:
     default: ''
   hidden: false
   default: ''
-- type: textarea
-  name: description
-  label: Description
-  config:
-    required: true
