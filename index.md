@@ -30,6 +30,7 @@ home_links:
   description: Pour apprendre à vous maquiller rapidement et naturellement avec des
     produits qui respectent votre peau, l'environnement et ceux qui les ont fabriqués.
   link: maquillage.md
+  image: "/uploads/p1010851a.jpg"
 fieldset: home
 menu:
   header:
