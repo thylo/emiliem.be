@@ -1,0 +1,62 @@
+---
+label: Le conseil en image en 4 étapes
+hide_body: 
+is_partial: 
+fields:
+- name: permalink
+  label: Permalink
+  type: text
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: services
+  label: Services
+  type: field_group_list
+  fields:
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: prices
+    label: Prices
+    type: field_group_list
+    fields:
+    - name: description
+      label: Description
+      type: text
+      hidden: false
+      default: ''
+    - name: duration
+      label: Duration
+      type: text
+      hidden: false
+      default: ''
+    - name: price
+      label: Price
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  - name: description
+    label: Description
+    type: textarea
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
