@@ -1,5 +1,6 @@
 ---
 permalink: maquillage.html
+menu: header
 template: sections/index
 title: Maquillage
 blocks:

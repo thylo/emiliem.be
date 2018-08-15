@@ -1,5 +1,6 @@
 ---
 title: Ateliers
+menu: header
 permalink: ateliers.html
 template: sections/index
 blocks:

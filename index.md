@@ -1,5 +1,6 @@
 ---
 permalink: index.html
+menu: header
 title: 'Conseil en image - maquillage - massage'
 template: Home
 intro: |

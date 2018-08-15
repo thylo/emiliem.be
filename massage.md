@@ -1,6 +1,7 @@
 ---
 permalink: massage.html
 title: Massage
+menu: header
 template: sections/index
 blocks:
   -

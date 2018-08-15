@@ -1,5 +1,6 @@
 ---
 permalink: conseil.html
+menu: header
 template: sections/index
 title: 'Le conseil en image en 4 étapes'
 blocks:
