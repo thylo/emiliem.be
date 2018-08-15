@@ -50,8 +50,5 @@ exclude:
   - README.md
   - webpack.config.js
 
-include:
-  - _pages
-
 keep_files:
   - assets
