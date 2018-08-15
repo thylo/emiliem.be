@@ -1,7 +1,0 @@
----
-label: Accueil
-hide_body: true
-is_partial: false
-fields: []
-pages:
-- contact.md
