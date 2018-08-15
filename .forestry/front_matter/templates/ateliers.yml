@@ -1,0 +1,62 @@
+---
+label: Ateliers
+hide_body: 
+is_partial: 
+fields:
+- name: permalink
+  label: Permalink
+  type: text
+  hidden: false
+  default: ''
+- name: template
+  label: Template
+  type: text
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: blocks
+  label: Blocks
+  type: field_group_list
+  fields:
+  - name: type
+    label: Type
+    type: text
+    hidden: false
+    default: ''
+  - name: description
+    label: Description
+    type: textarea
+    hidden: false
+    default: ''
+  - name: workshop
+    label: Workshop
+    type: field_group_list
+    fields:
+    - name: title
+      label: Title
+      type: text
+      hidden: false
+      default: ''
+    - name: photo
+      label: Photo
+      type: text
+      hidden: false
+      default: ''
+    - name: description
+      label: Description
+      type: textarea
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: fieldset
+  label: Fieldset
+  type: text
+  hidden: false
+  default: ''
