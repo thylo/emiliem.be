@@ -1,7 +1,7 @@
 ---
 label: Ateliers
-hide_body: 
-is_partial: 
+hide_body: true
+is_partial: false
 fields:
 - name: permalink
   label: Permalink
