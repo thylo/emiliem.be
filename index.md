@@ -18,6 +18,7 @@ home_links:
   description: Pour passer un bon moment entre ami(e)s, famille, collègues et découvrir
     des outils bien-être à mettre en pratique au quotidien.
   link: ateliers.md
+  image: "/uploads/p1010840a.jpg"
 - title: Massage
   photo: "/assets/p1010825b.jpg"
   description: Pour vous mener vers une paix intérieure, une sensation de bien être
