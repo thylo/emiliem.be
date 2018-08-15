@@ -1,14 +1,10 @@
 ---
 permalink: massage.html
 title: Massage
-layout: workshops
-blocks:
-- type: intro
-  description: Le massage ouvre la porte de la (re)découverte de soi. Il mène à
-    la paix intérieure, à une sensation de bien être et à une détente aux effets
-    durables.
-- type: services
-  service:
+layout: massage
+intro: Le massage ouvre la porte de la (re)découverte de soi. Il mène à
+    la paix intérieure, à une sensation de bien être et à une détente aux effets durables.
+services:
   - title: Massage assis
     photo: "/assets/p1010827a.jpg"
     description: Originaire du Japon, où il est d’ailleurs considéré comme une
@@ -22,7 +18,6 @@ blocks:
       sur une chaise ergonomique. Une séance dure 15 minutes et permet de masser
       les épaules, la nuque, la tête, les bras, les mains, le dos, les hanches et
       les jambes.
-fieldset: sections
 menu:
   header:
     weight: 5

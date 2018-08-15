@@ -11,15 +11,8 @@ layout: default
         <li>
             <h3>{{service.title}}</h3>
             <div>{{service.description}}</div>
-            <ul>
-                {%for price in service.prices%}
-                <li>
-                    <h4>{{price.description}}</h4>
-                    <div>{{price.duration}}</div>
-                    <div>{{price.price}}€</div>
-                </li>
-                {%endfor%}
-            </ul>
+            {% assign prices = services.prices %}
+            {% include prices.html %}
         </li>
     {%endfor%}
 </ul>

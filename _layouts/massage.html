@@ -6,3 +6,13 @@ layout: default
 <div>
     {{page.intro}}
 </div>
+
+{%for service in page.services%}
+<li>
+    <h3>{{service.title}}</h3>
+    <div>{{service.description}}</div>
+    {% assign prices = services.prices %}
+    {% include prices.html %}
+</li>
+{%endfor%}
+

@@ -1,0 +1,11 @@
+{%if prices%}
+<ul>
+    {%for price in prices%}
+    <li>
+        <h4>{{price.description}}</h4>
+        <div>{{price.duration}}</div>
+        <div>{{price.price}}€</div>
+    </li>
+    {%endfor%}
+</ul>
+{%endif%}

@@ -3,3 +3,14 @@ layout: default
 ---
 <h1>{{page.title}}</h1>
 
+<ul>
+    {% for workshop in page.workshops %}
+        <li>
+            <h3>{{workshop.title}}</h3>
+            <div>{{workshop.description}}</div>
+        </li>
+    {% endfor %}
+</ul>
+
+{% assign prices = page.prices %}
+{% include prices.html %}
