@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Mon premier fichier Jekyll
+title: Mon deuxieme fichier Jekyll
 ---
 
 <h1>{{ page.title }}</h1>
