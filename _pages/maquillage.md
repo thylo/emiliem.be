@@ -1,4 +1,5 @@
 ---
+permalink: maquillage.html
 template: sections/index
 title: Maquillage
 blocks:

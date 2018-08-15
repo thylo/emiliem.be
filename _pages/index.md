@@ -1,4 +1,5 @@
 ---
+permalink: index.html
 title: 'Conseil en image - maquillage - massage'
 template: Home
 intro: |

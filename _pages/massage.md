@@ -1,4 +1,5 @@
 ---
+permalink: massage.html
 title: Massage
 template: sections/index
 blocks:

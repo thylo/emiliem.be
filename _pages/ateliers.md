@@ -1,5 +1,6 @@
 ---
 title: Ateliers
+permalink: ateliers.html
 template: sections/index
 blocks:
   -
