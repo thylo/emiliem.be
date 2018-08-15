@@ -56,3 +56,5 @@ fields:
     name: link
   hidden: false
   default: ''
+pages:
+- index.md
