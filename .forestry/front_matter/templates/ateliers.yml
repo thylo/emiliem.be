@@ -53,8 +53,3 @@ fields:
     default: ''
   hidden: false
   default: ''
-- name: fieldset
-  label: Fieldset
-  type: text
-  hidden: false
-  default: ''
