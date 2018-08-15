@@ -31,6 +31,6 @@ blocks:
 fieldset: sections
 menu:
   header:
-    weight: 3
+    weight: 4
 
 ---

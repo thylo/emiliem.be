@@ -30,6 +30,7 @@ home_links:
 fieldset: home
 menu:
   header:
-    weight: 5
+    weight: 1
+    title: Accueil
 
 ---

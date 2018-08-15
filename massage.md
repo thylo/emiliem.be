@@ -25,6 +25,6 @@ blocks:
 fieldset: sections
 menu:
   header:
-    weight: 4
+    weight: 5
 
 ---
