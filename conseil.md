@@ -1,6 +1,6 @@
 ---
 permalink: conseil.html
-template: sections/index
+layout: consulting
 title: Le conseil en image en 4 étapes
 blocks:
 - type: intro

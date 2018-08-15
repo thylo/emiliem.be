@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}Webstoemp</title>
+    <meta name="description"
+          content="{% if page.excerpt %}{{ page.excerpt }}{% else %}{{ site.html_description }}{% endif %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/emiliem.min.css?rev={{ site.time | date: '%s' }}">
+
 </head>
 <body>
+
+{% include header.html %}
+
 {{ content }}
+
+{% include footer.html %}
+
+<!-- all other scripts minified and concatenated -->
+<!--
+<script src="/assets/js/main.bundle.js?rev={{ site.time | date: '%s' }}"></script>
+-->
 </body>
+
 </html>

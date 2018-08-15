@@ -1,5 +1,6 @@
 ---
 title: Contact
+layout: contact
 date: 2018-08-15 16:20:00 +0000
 introduction: |-
   Après un parcours assez classique et de nombreuses formations suivies dans différents domaines du bien-être, Emilie a eu envie d’en faire son métier principal et de partager avec d’autres ses apprentissages.

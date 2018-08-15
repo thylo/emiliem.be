@@ -25,6 +25,7 @@ function browserSync(done) {
     server: {
       baseDir: "./_site/"
     },
+    open: false,
     port: 3000
   });
   done();
@@ -107,7 +108,8 @@ function watchFiles() {
       "./_layouts/**/*",
       "./_pages/**/*",
       "./_posts/**/*",
-      "./_projects/**/*"
+      "./_projects/**/*",
+      "./*.md"
     ],
     gulp.series(jekyll, browserSyncReload)
   );

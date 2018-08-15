@@ -1,7 +1,7 @@
 ---
 title: Ateliers
 permalink: ateliers.html
-template: sections/index
+layout: workshops
 blocks:
 - type: workshops
   workshop:

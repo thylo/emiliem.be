@@ -1,6 +1,6 @@
 ---
 permalink: maquillage.html
-template: sections/index
+layout: makeup
 title: Maquillage
 blocks:
 - type: intro

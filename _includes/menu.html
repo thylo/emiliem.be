@@ -1,0 +1,16 @@
+{% if menu %}
+<ul>
+
+    {% for item in menu %}
+    <li class="menu-item-{{ forloop.index }} {% if item.url == page.url %}active{% endif %}">
+        <a href="{{ item.url }}" title="Go to {{ item.title }}">
+            {{ item.title }}
+        </a>
+        {% if item.children %}
+        {% assign menu = item.children %}
+        {% include menu.html %}
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}

@@ -1,7 +1,7 @@
 ---
 permalink: massage.html
 title: Massage
-template: sections/index
+layout: workshops
 blocks:
 - type: intro
   description: Le massage ouvre la porte de la (re)découverte de soi. Il mène à
