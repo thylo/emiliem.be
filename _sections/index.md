@@ -1,6 +1,6 @@
 ---
 title: Conseil en image - maquillage - massage
-layout: home
+template: home
 intro: |
   L'image que l'on donne à voir de nous est importante, tant dans notre vie professionnelle (il faut que notre image colle à celle de l'entreprise ou à notre métier) que personnelle. Dans les deux cas, avoir une image qui correspond à notre personnalité augmente notre confiance en nous.
 
@@ -31,6 +31,7 @@ home_links:
   link: maquillage.md
   image: "/uploads/p1010851a.jpg"
 fieldset: home
+weight: 1
 menu:
   header:
     weight: 1
