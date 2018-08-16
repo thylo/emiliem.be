@@ -11,5 +11,3 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-pages:
-- contact.md
