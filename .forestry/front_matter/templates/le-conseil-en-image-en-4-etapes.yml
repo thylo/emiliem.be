@@ -1,7 +1,7 @@
 ---
-label: Le conseil en image en 4 étapes
-hide_body: 
-is_partial: 
+label: Conseil
+hide_body: true
+is_partial: false
 fields:
 - name: title
   label: Title
