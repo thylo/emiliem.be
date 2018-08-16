@@ -1,6 +1,5 @@
 ---
-permalink: conseil.html
-layout: consulting
+template: consulting
 title: Le conseil en image en 4 étapes
 description: |
   Je vous propose de vous (re)découvrir afin d’affirmer votre personnalité dans l’image que vous donnez à voir aux autres.
@@ -44,6 +43,7 @@ services:
   - description: Tri de la garde robe
     duration: 2h
     price: 100
+weight: 3
 menu:
   header:
     weight: 3

@@ -17,9 +17,7 @@ kramdown:
 permalink: /blog/:title/
 
 collections:
-  projects:
-    output: true
-    permalink: /work/:title/
+  - sections
 
 # Defaults front matter variables for various types
 # http://jekyllrb.com/docs/configuration/#front-matter-defaults

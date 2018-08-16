@@ -1,0 +1,9 @@
+---
+layout: default
+---
+{% assign sections = site.sections | sort: 'weight' %}
+{% for page in sections   %}
+<div>
+    {% include sections/{{page.template}}.html %}
+</div>
+{% endfor %}

@@ -1,7 +1,6 @@
 ---
 title: Ateliers
-permalink: ateliers.html
-layout: workshops
+template: workshops
 workshops:
   - title: Analyse des couleurs
     photo: "/assets/p1020038.jpg"
@@ -25,6 +24,7 @@ prices:
       qui invite)
     duration: 2h30
     price: 25€ par personne
+weight: 4
 menu:
   header:
     weight: 4

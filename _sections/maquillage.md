@@ -1,6 +1,5 @@
 ---
-permalink: maquillage.html
-layout: makeup
+template: makeup
 title: Maquillage
 description: Chaque visage est beau et dispose d’atouts naturels. Le maquillage
   permet de mettre en lumière ces atouts, de se concentrer sur ses qualités, de souligner
@@ -15,6 +14,7 @@ description: Chaque visage est beau et dispose d’atouts naturels. Le maquillag
   jours ou pour une occasion). Je vous apprends les gestes, mais également à choisir
   les couleurs qui s’accordent avec vos couleurs naturelles (peau, yeux, cheveux,
   bouche) et qui illumineront votre visage.
+weight: 2
 menu:
   header:
     weight: 2

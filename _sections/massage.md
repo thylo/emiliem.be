@@ -1,7 +1,6 @@
 ---
-permalink: massage.html
 title: Massage
-layout: massage
+template: massage
 intro: Le massage ouvre la porte de la (re)découverte de soi. Il mène à
     la paix intérieure, à une sensation de bien être et à une détente aux effets durables.
 services:
@@ -18,6 +17,7 @@ services:
       sur une chaise ergonomique. Une séance dure 15 minutes et permet de masser
       les épaules, la nuque, la tête, les bras, les mains, le dos, les hanches et
       les jambes.
+weight: 5
 menu:
   header:
     weight: 5
