@@ -65,3 +65,5 @@ fields:
   type: textarea
   hidden: false
   default: ''
+pages:
+- _sections/massage.md
