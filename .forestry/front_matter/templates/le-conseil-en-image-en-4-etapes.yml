@@ -1,28 +1,28 @@
 ---
 label: Le conseil en image en 4 étapes
-hide_body: true
-is_partial: false
+hide_body: 
+is_partial: 
 fields:
-- name: permalink
-  label: Permalink
-  type: text
-  hidden: true
-  default: ''
-- name: layout
-  label: Layout
-  type: text
-  hidden: true
-  default: ''
 - name: title
   label: Title
   type: text
   hidden: false
   default: ''
-- type: textarea
-  name: description
+- name: template
+  label: Template
+  type: text
+  hidden: false
+  default: ''
+- name: weight
+  label: Weight
+  type: text
+  hidden: false
+  default: ''
+- name: description
   label: Description
-  config:
-    required: true
+  type: textarea
+  hidden: false
+  default: ''
 - name: services
   label: Services
   type: field_group_list
@@ -56,6 +56,11 @@ fields:
   - name: description
     label: Description
     type: textarea
+    hidden: false
+    default: ''
+  - name: photo
+    label: Photo
+    type: text
     hidden: false
     default: ''
   hidden: false
