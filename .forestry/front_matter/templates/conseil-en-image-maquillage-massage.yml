@@ -56,4 +56,5 @@ fields:
   hidden: false
   default: ''
 pages:
+- _sections/index.md
 - index.md
