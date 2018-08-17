@@ -1,11 +1,11 @@
 # Site variables
-title: Webstoemp
-email: hello@webstoemp.com
+title: EmilieM
+email: info@emiliem.be
 baseurl: ""
-url: "https://www.webstoemp.com"
+url: "https://www.emiliem.be"
 twitter_username: jeromecoupe
 github_username:  jeromecoupe
-html_description: "The blog and portfolio of Jérôme Coupé, a web designer from Brussels, Belgium"
+html_description: "Conseil en image - maquillage - massage"
 
 # Build settings
 highlighter: rouge

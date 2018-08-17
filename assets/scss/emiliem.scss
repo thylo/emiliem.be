@@ -74,8 +74,6 @@
  * Hide.................Helper classes to hide content
  */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Roboto');
-
 // SETTINGS
 @import "../../node_modules/inuitcss/settings/example.settings.config";
 @import "../../node_modules/inuitcss/settings/settings.core";
@@ -86,6 +84,7 @@
 @import "../../node_modules/inuitcss/tools/tools.clearfix";
 @import "../../node_modules/inuitcss/tools/tools.hidden";
 @import "../../node_modules/sass-mq/mq";
+@import "./tools/tools.font-size";
 
 // GENERIC
 @import "../../node_modules/inuitcss/generic/generic.box-sizing";
@@ -95,10 +94,10 @@
 
 // ELEMENTS
 @import "../../node_modules/inuitcss/elements/elements.page";
-@import "../../node_modules/inuitcss/elements/elements.headings";
-@import "./elements/elements.headings";
 @import "../../node_modules/inuitcss/elements/elements.images";
 @import "../../node_modules/inuitcss/elements/elements.tables";
+//@import "./elements/elements.headings";
+@import "./elements/elements.typography";
 
 // OBJECTS
 //

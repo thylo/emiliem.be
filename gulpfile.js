@@ -87,7 +87,7 @@ function scripts() {
       .pipe(plumber())
       .pipe(webpackstream(webpackconfig), webpack)
       .pipe(uglify())
-      // folder only, filename is specified in webpack config
+      // folder only, filename is specified in webpack configde
       .pipe(gulp.dest("./_site/assets/js/"))
       .pipe(browsersync.stream())
   );
@@ -106,7 +106,7 @@ function watchFiles() {
     [
       "./_includes/**/*",
       "./_layouts/**/*",
-      "./_pages/**/*",
+      "./_sections/**/*",
       "./_posts/**/*",
       "./_projects/**/*",
       "./*.md"
