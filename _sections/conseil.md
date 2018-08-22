@@ -30,7 +30,10 @@ services:
   photo: "/assets/grimace-388987_1920.jpg"
   description: La morphologie de votre visage détermine quelle paire de lunettes,
     coiffure, barbe et accessoires privilégier.
-    
+  prices:
+  - description: Visagisme et conseils lunettes, bijoux, accessoires, coiffure
+    duration: 1h
+    price: 60€
 - title: Analyse de style
   photo: "/assets/img_6792_dxo---copie.jpg"
   description: Découvrez les coupes de vêtements et les matières qui vous mettent
