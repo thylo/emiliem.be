@@ -58,10 +58,9 @@ fields:
     type: textarea
     hidden: false
     default: ''
-  - name: photo
+  - type: file
+    name: photo
     label: Photo
-    type: text
-    hidden: false
   hidden: false
   default: ''
 pages:
