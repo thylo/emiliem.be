@@ -30,6 +30,7 @@ services:
   photo: "/assets/grimace-388987_1920.jpg"
   description: La morphologie de votre visage détermine quelle paire de lunettes,
     coiffure, barbe et accessoires privilégier.
+    
 - title: Analyse de style
   photo: "/assets/img_6792_dxo---copie.jpg"
   description: Découvrez les coupes de vêtements et les matières qui vous mettent

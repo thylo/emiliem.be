@@ -1,3 +1,12 @@
+.c-home-links{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  @include mq($from: desktop){
+    flex-wrap: nowrap;
+  }
+}
 .c-home-link{
-  border:1px solid #dedede;
+  flex:1;
+  background: white;
 }

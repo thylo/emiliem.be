@@ -114,6 +114,7 @@
 @import "../../node_modules/inuitcss/objects/objects.crop";
 @import "../../node_modules/inuitcss/objects/objects.table";
 @import "../../node_modules/inuitcss/objects/objects.pack";
+@import "./objects/objects.flex-layout";
 
 // COMPONENTS
 //
@@ -121,6 +122,10 @@
 @import "../../node_modules/inuitcss/components/example.components.buttons";
 @import "./components/components.buttons";
 @import "./components/components.home-links";
+@import "./components/components.split";
+
+@import "./components/component.home";
+@import "./components/component.prices";
 
 // UTILITIES
 @import "../../node_modules/inuitcss/utilities/utilities.clearfix";
@@ -135,3 +140,4 @@ $inuit-offsets: true;
 @import "../../node_modules/inuitcss/utilities/utilities.responsive-spacings";
 @import "../../node_modules/inuitcss/utilities/utilities.print";
 @import "../../node_modules/inuitcss/utilities/utilities.hide";
+@import "utilities/utilities.alignment";

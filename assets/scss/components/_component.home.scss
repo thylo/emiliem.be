@@ -1,0 +1,59 @@
+.c-hero{
+  background-size: cover;
+  text-align: center;
+  padding: $inuit-global-spacing-unit-huge 0;
+}
+.c-column-overlay{
+  position: relative;
+  &__image{
+    position: absolute;
+    top: $inuit-global-spacing-unit-large;
+    bottom: $inuit-global-spacing-unit-large;
+    left:0;
+    right:0;
+    background: url('../../uploads/p1010847a.jpg');
+    background-size: cover;
+  }
+  &__content{
+    position: relative;
+    z-index: 1;
+    h1{
+      color: white;
+    }
+    background: #333;
+    color: #fff;
+    padding: $inuit-global-spacing-unit;
+    margin-left: $inuit-global-spacing-unit-large;
+    width: 40%;
+  }
+}
+
+.c-workshops{
+  background: url('../img/index_bg.jpg');
+  background-size: cover;
+  &__content{
+    background: white;
+  }
+}
+
+.c-contact{
+  &__image{
+    position: relative;
+    background: #e9e8e6;
+    &:after{
+      content:'';
+      position: absolute;
+      left:0%;
+      width: 30rem;
+      top:0%;
+      height: 30rem;
+      border: 6px solid #cc8776;
+      transform: rotate(45deg);
+    }
+  }
+  &__content{
+    background: #333;
+    color: white;
+    font-weight: 500;
+  }
+}

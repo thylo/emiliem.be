@@ -14,7 +14,7 @@ home_links:
   description: Pour vous (re)découvrir et affirmer votre personnalité dans l'image
     que vous donnez à voir aux autres.
   link: conseil.md
-  image: "/uploads/img_6843_dxo.jpg"
+  image: "/uploads/p1010868b.jpg"
 - title: Ateliers
   photo: "/assets/p1010840a.jpg"
   description: Pour passer un bon moment entre ami(e)s, famille, collègues et découvrir

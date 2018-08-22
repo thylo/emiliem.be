@@ -1,0 +1,10 @@
+.c-prices{
+  border : 1px solid #dedede;
+  border-bottom: 3px solid darken(#dedede,10%);
+  &__item{
+    border-bottom : 1px solid #dedede;
+    &:last-child{
+      border-bottom : 0;
+    }
+  }
+}

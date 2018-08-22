@@ -14,6 +14,10 @@ $mod_2: 1.5; // desktop
 $min_font: 16px;
 $max_font: 24px;
 
+a{
+  color: #00687A;
+}
+
 html, body{
   font-size: $mod_1*1rem;
   font-family: 'Playfair Display', serif;
@@ -26,8 +30,8 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: $mod_1*$mod_1*$mod_1*$mod_1*$mod_1 *1rem;
-  @include fluid-type($min_width, $max_width, 36px, 60px);
+  font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem;
+  @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2*$mod_2 *$min_font);
   line-height: 1.1em;
   margin-bottom: 1em;
   &:after {
@@ -48,6 +52,14 @@ h2 {
 h3 {
   font-size: $mod_1*$mod_1 *1rem;
   @include fluid-type($min_width, $max_width, $mod_1*$mod_1 *$min_font, $mod_2*$mod_2 *$min_font);
+  &:after {
+    background: #CC8776;
+    content: '';
+    display: block;
+    height: 2px;
+    margin: .9em 0;
+    width: 1em;
+  }
 }
 
 h4 {
