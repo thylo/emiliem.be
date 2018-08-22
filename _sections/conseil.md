@@ -36,7 +36,7 @@ services:
     duration: 1h
     price: 60€
 - title: Analyse de style
-  photo: "/assets/img_6792_dxo---copie.jpg"
+  photo: "/uploads/img_6792_dxo---copie.jpg"
   description: Découvrez les coupes de vêtements et les matières qui vous mettent
     en valeur. Quel est votre style? Quels traits de votre personnalité souhaitez-
     vous mettre en avant dans votre image? Cette étape est cruciale pour renforcer
