@@ -12,6 +12,7 @@ services:
     price: 75
   description: Découvrez l’énergie des couleurs, celles qui s’accordent avec vos
     couleurs naturelles (peau, yeux, cheveux, bouche)
+  photo: "/uploads/p1010868b.jpg"
 - title: Maquillage
   photo: "/assets/p1010851a.jpg"
   description: 'Sur base de votre analyse des couleurs, apprenez à vous maquiller
