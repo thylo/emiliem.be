@@ -28,7 +28,7 @@ services:
   - description: Maquillage pour une occasion sans séance d’essai
     price: 60
 - title: Visagisme
-  photo: "/assets/grimace-388987_1920.jpg"
+  photo: "/uploads/grimace-388987_1920.jpg"
   description: La morphologie de votre visage détermine quelle paire de lunettes,
     coiffure, barbe et accessoires privilégier.
   prices:
