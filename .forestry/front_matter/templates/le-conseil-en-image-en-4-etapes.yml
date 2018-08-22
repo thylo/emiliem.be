@@ -3,6 +3,9 @@ label: Conseil
 hide_body: true
 is_partial: false
 fields:
+- type: file
+  label: Image
+  name: image
 - name: title
   label: Title
   type: text
