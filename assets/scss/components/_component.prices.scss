@@ -1,10 +1,19 @@
 .c-prices{
-  border : 1px solid #dedede;
-  border-bottom: 3px solid darken(#dedede,10%);
+  //border : 1px solid #dedede;
+  //box-shadow: 0 4px 6px 0 hsla(0,0,0,.2);
+  box-shadow: 0 2px 6px 0 hsla(0,0,0,.2);
+
   &__item{
-    border-bottom : 1px solid #dedede;
+    border-bottom : 1px solid hsla(0,0,0,.1);
     &:last-child{
       border-bottom : 0;
     }
+  }
+}
+
+.c-price{
+
+  &__price{
+    color:#d3ab55;
   }
 }

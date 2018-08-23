@@ -1,0 +1,25 @@
+.c-consulting-services{
+}
+.c-consulting-service{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $inuit-global-spacing-unit-large;
+  @include mq($from: tablet) {
+    flex-direction: row;
+  }
+  &__content{
+    flex:1;
+    margin-left: $inuit-global-spacing-unit-large;
+  }
+  &__image{
+    width:25vw;
+    height:25vw;
+    max-width: 10rem;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    img{
+      width: auto;
+      height: auto;
+      margin: 0px;
+    }
+  }
+}

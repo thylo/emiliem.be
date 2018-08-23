@@ -1,14 +1,16 @@
-<ul class="o-list-bare c-prices u-margin-top">
-    {%for price in include.prices%}
-    <li class="o-list-bare__item o-flex-layout o-flex-layout--middle c-prices__item">
-        <h4 class="o-flex-layout__item u-padding-small u-margin-none o-flex-layout__item--fill">
-            {{price.description}}</h4>
-        {% if (price.duration) %}
-        <div class="o-flex-layout__item u-padding-small">
-            {{price.duration}}
-        </div>
-        {% endif %}
-        <div class="o-flex-layout__item u-padding-small">{{price.price}}€</div>
-    </li>
-    {%endfor%}
-</ul>
+<div class="c-prices u-margin-top">
+    <ul class="o-list-bare u-margin-none">
+        {%for price in include.prices%}
+        <li class="o-list-bare__item o-flex-layout o-flex-layout--middle c-prices__item c-price">
+            <h4 class="o-flex-layout__item u-padding-small u-margin-none o-flex-layout__item--fill c-price__title">
+                {{price.description}}</h4>
+            {% if (price.duration) %}
+            <div class="o-flex-layout__item u-padding-small c-price__duration">
+                {{price.duration}}
+            </div>
+            {% endif %}
+            <div class="o-flex-layout__item u-padding-small c-price__price">{{price.price}}</div>
+        </li>
+        {%endfor%}
+    </ul>
+</div>

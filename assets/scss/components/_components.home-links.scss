@@ -2,11 +2,15 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  @include mq($from: desktop){
+  @include mq($from: tablet){
     flex-wrap: nowrap;
   }
 }
 .c-home-link{
-  flex:1;
+  flex-grow:1;
+  width: 50%;
   background: white;
+  @include mq($from: tablet) {
+    width: auto;
+  }
 }

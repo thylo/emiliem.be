@@ -1,0 +1,24 @@
+.c-workshops {
+  background: url('../img/index_bg.jpg');
+  background-size: cover;
+  &__content {
+    background: white;
+    border: 1px solid darken(white, 20%);
+  }
+}
+
+.c-workshop{
+  padding-left: $inuit-global-spacing-unit-large;
+  position: relative;
+  &:before{
+    content : "";
+    position: absolute;
+    left:$inuit-global-spacing-unit-large / 2;
+    top:1em;
+    border-radius: 999px;
+    background: lighten(#555,5%);
+    width: .5em;
+    height: .5em;
+    transform: translate(-50%,0);
+  }
+}
