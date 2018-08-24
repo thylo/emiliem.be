@@ -11,5 +11,15 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- type: text
+  name: subtitle
+  label: subtitle
+- type: textarea
+  name: contact
+  label: contact
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 pages:
 - _sections/contact.md
