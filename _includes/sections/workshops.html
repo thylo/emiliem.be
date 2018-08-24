@@ -1,6 +1,5 @@
 <div class="c-workshops">
-    <div class="o-wrapper u-padding-vertical-huge">
-        <div class="c-workshops__content u-padding-large u-margin-horizontal-huge">
+    <div class="c-workshops__content">
         <h1>{{page.title}}</h1>
         <ul class="o-list-bare">
             {% for workshop in page.workshops %}
@@ -12,6 +11,5 @@
         </ul>
 
         {% include prices.html prices=page.prices%}
-        </div>
     </div>
 </div>

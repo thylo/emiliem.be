@@ -48,7 +48,7 @@ services:
   - description: Tri de la garde robe
     duration: 2h
     price: 100
-weight: 3
+weight: 2
 menu:
   header:
     weight: 3

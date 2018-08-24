@@ -32,27 +32,3 @@
     }
   }
 }
-
-
-
-.c-contact {
-  &__image {
-    position: relative;
-    background: #e9e8e6;
-    &:after {
-      content: '';
-      position: absolute;
-      left: 0%;
-      width: 30rem;
-      top: 0%;
-      height: 30rem;
-      border: 6px solid #cc8776;
-      transform: rotate(45deg);
-    }
-  }
-  &__content {
-    background: #333;
-    color: white;
-    font-weight: 500;
-  }
-}

@@ -59,6 +59,9 @@ h3 {
     height: 2px;
     margin: .9em 0;
     width: 1em;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
   }
 }
 

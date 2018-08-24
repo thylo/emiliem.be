@@ -9,7 +9,7 @@
         <li class="o-list-bare__item">
             <div class="c-consulting-service">
                 <div class="c-consulting-service__image">
-                    <img src="{{service.photo}}" alt="{{service.title}}">
+                    {%include cloudinary.html path=service.photo alt=service.title options="w_250,h_250,c_fill,g_face,f_auto" %}
                 </div>
                 <div class="c-consulting-service__content">
                     <h3>{{service.title}}</h3>

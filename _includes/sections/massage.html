@@ -1,18 +1,27 @@
 <div class="o-wrapper u-padding-vertical-huge">
-    <h1>{{page.title}}</h1>
+    <div class="o-layout">
+        <div class="o-layout__item u-1/2@tablet">
+            <h1>{{page.title}}</h1>
 
-    <div>
-        {{page.intro}}
+            <div>
+                {{page.intro}}
+            </div>
+
+            <ul class="u-margin-top">
+                {%for service in page.services%}
+                <li>
+                    <h3>{{service.title}}</h3>
+                    <div>{{service.description}}</div>
+                    {% assign prices = services.prices %}
+                    {% include prices.html %}
+                </li>
+                {%endfor%}
+            </ul>
+        </div>
+
+
+        <div class="o-layout__item u-1/2@tablet">
+            {% include cloudinary.html path=page.image options="w_600,c_fill,g_face,f_auto" alt=page.image %}
+        </div>
     </div>
-
-    <ul>
-        {%for service in page.services%}
-        <li>
-            <h4>{{service.title}}</h4>
-            <div>{{service.description}}</div>
-            {% assign prices = services.prices %}
-            {% include prices.html %}
-        </li>
-        {%endfor%}
-    </ul>
 </div>

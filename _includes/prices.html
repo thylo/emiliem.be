@@ -1,16 +1,17 @@
-<div class="c-prices u-margin-top">
-    <ul class="o-list-bare u-margin-none">
-        {%for price in include.prices%}
-        <li class="o-list-bare__item o-flex-layout o-flex-layout--middle c-prices__item c-price">
-            <h4 class="o-flex-layout__item u-padding-small u-margin-none o-flex-layout__item--fill c-price__title">
-                {{price.description}}</h4>
+<ul class="o-list-bare u-margin-top c-prices">
+    {%for price in include.prices%}
+    <li class="o-list-bare__item c-prices__item c-price">
+        <h4 class="o-flex-layout__item u-padding-small u-margin-none c-price__title">
+            {{price.description}}</h4>
+        <div class="c-price__meta">
             {% if (price.duration) %}
-            <div class="o-flex-layout__item u-padding-small c-price__duration">
-                {{price.duration}}
-            </div>
+            <span class="u-padding-small c-price__duration">
+                <img src="/assets/img/svg/watch.svg" alt=""/>
+                <span>{{price.duration}}</span>
+            </span>&nbsp;-&nbsp;
             {% endif %}
-            <div class="o-flex-layout__item u-padding-small c-price__price">{{price.price}}</div>
-        </li>
-        {%endfor%}
-    </ul>
-</div>
+            <span class="u-padding-small c-price__price">{{price.price}}</span>
+        </div>
+    </li>
+    {%endfor%}
+</ul>

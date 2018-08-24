@@ -10,7 +10,7 @@
   flex-grow:1;
   width: 50%;
   background: white;
-  @include mq($from: tablet) {
-    width: auto;
+  @include mq($until: tablet) {
+    width: 50%;
   }
 }
