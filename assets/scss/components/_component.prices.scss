@@ -27,6 +27,9 @@
     color: #555555;
     font-size: $inuit-font-size-h2;
   }
+  &__meta{
+    flex-shrink: 0;
+  }
   &__price{
     color:#d3ab55;
     font-weight: 800;

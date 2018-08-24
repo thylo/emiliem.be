@@ -9,7 +9,7 @@ services:
   prices:
   - description: Analyse des couleurs approfondie + nuancier personnalisé
     duration: 1h30
-    price: 75
+    price: 75€
   description: Découvrez l’énergie des couleurs, celles qui s’accordent avec vos
     couleurs naturelles (peau, yeux, cheveux, bouche)
   photo: "/uploads/p1010868b.jpg"
@@ -22,11 +22,11 @@ services:
   - description: Analyse rapide des couleurs + cours de maquillage + nuancier personnalisé
       + fiche technique
     duration: 2h
-    price: 90
+    price: 90€
   - description: Maquillage pour une occasion avec une séance d’essai
-    price: 100
+    price: 100€
   - description: Maquillage pour une occasion sans séance d’essai
-    price: 60
+    price: 60€
 - title: Visagisme
   photo: "/uploads/grimace-388987_1920.jpg"
   description: La morphologie de votre visage détermine quelle paire de lunettes,
@@ -44,10 +44,10 @@ services:
   prices:
   - description: Analyse rapide des couleurs + morphologie corps + style
     duration: 1h30
-    price: 75
+    price: 75€
   - description: Tri de la garde robe
     duration: 2h
-    price: 100
+    price: 100€
 weight: 2
 menu:
   header:

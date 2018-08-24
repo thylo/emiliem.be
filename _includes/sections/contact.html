@@ -8,8 +8,13 @@
 </div>
 
 <div class="c-credentials">
-    <h3>{{page.subtitle}}</h3>
-    <div>{{page.contact}}</div>
+    <div class="o-wrapper">
+        <div class="u-padding-vertical-large">
+            <img src="/assets/img/svg/logo.svg" alt="" class="c-credentials__logo">
+            <h3>{{page.subtitle}}</h3>
+            <div>{{page.contact | markdownify}}</div>
+        </div>
+    </div>
 </div>
 
 

@@ -18,3 +18,14 @@
     margin: $inuit-global-spacing-unit
   }
 }
+
+.c-credentials{
+  background: url("../img/svg/bgbottom.svg") no-repeat;
+  background-size: 100% 50%;
+  background-position: center bottom;
+  text-align: center;
+  &__logo{
+    width: 10rem;
+    margin-bottom: $inuit-global-spacing-unit;
+  }
+}

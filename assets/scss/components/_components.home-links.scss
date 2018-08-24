@@ -13,4 +13,7 @@
   @include mq($until: tablet) {
     width: 50%;
   }
+  img{
+    width: 100%;
+  }
 }
