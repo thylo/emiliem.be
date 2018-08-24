@@ -11,6 +11,17 @@ introduction: |-
 
   Mais ce n’est qu’un début… Emilie continue à se former et se perfectionner. Différents services, différents domaines, mais un seul objectif : être bienveillant et respectueux de soi-même, se connecter à son corps et être fier de l’image qu’il renvoie de notre personnalité.
 weight: 10
+subtitle: Je m'adapte à vos besoins
+contact: |-
+  #### N'hésitez pas à me contacter pour toute question et construction de votre programme personalisé
+
+  Emilie Moreels
+
+  [0495 65 00 14](tel:0495650014)
+
+  [info@emiliem.be](mailto:info@emiliem.be)
+
+  Walhain (déplacements possibles Wallonie et Bruxelles)
 menu:
   header:
     weight: 10
