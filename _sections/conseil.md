@@ -7,7 +7,7 @@ description: |
 services:
 - title: Analyse des couleurs
   prices:
-  - description: Analyse des couleurs approfondie + nuancier personnalisé
+  - description: Analyse des couleurs approfondie + nuancier personnalisé
     duration: 1h30
     price: 75€
   description: Découvrez l’énergie des couleurs, celles qui s’accordent avec vos
