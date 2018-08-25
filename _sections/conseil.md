@@ -10,7 +10,7 @@ services:
   - description: Analyse des couleurs approfondie + nuancier personnalisé
     duration: 1h30
     price: 75€
-  description: Découvrez l’énergie des couleurs, celles qui s’accordent avec vos
+  description: Découvrez l’énergie des couleurs, celles qui s’accordent avec vos
     couleurs naturelles (peau, yeux, cheveux, bouche)
   photo: "/uploads/p1010868b.jpg"
 - title: Maquillage
