@@ -2,8 +2,8 @@
 title: Massage
 template: massage
 image: "/uploads/chaise.jpg?pop=12"
-intro: Le massage ouvre la porte de la (re)découverte de soi. Il mène à la paix
-  intérieure, à une sensation de bien être et à une détente aux effets durables.
+intro: Le massage ouvre la porte de la (re)découverte de soi. Il mène à la paix intérieure,
+  à une sensation de bien être et à une détente aux effets durables.
 services:
 - title: Massage assis
   photo: "/assets/p1010827a.jpg"
