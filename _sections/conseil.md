@@ -19,7 +19,7 @@ services:
     de façon à mettre en lumière vos atouts naturels (ZAO MakeUp: maquillage naturel,
     rechargeable et durable)'
   prices:
-  - description: Analyse rapide des couleurs + cours de maquillage + nuancier personnalisé
+  - description: Analyse rapide des couleurs + cours de maquillage + nuancier personnalisé
       + fiche technique
     duration: 2h
     price: 90€
