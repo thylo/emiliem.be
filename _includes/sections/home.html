@@ -17,7 +17,7 @@
             {% include cloudinary.html path=link.image options="w_300,h_300,c_fill,g_face,f_auto" alt=link.title %}
             <div class="u-padding c-home-link__content">
                 <h3>{{link.title}}</h3>
-                <div>{{link.description}}</div>
+                <div>{{link.description | markdownify}}</div>
                 <a href="{{link.link}}" class="c-btn c-btn--ghost c-btn--small u-margin-top">En savoir plus</a>
             </div>
         </div>

@@ -1,7 +1,7 @@
 <div class="o-wrapper u-padding-vertical-huge c-massages">
     <h1>{{page.title}}</h1>
     <div>
-        {{page.intro}}
+        {{page.intro | markdownify}}
     </div>
     <ul class="u-margin-top o-list-bare">
         {%for service in page.services%}
@@ -9,7 +9,7 @@
             <h3 class="c-massage__title">{{service.title}}</h3>
             <div class="o-layout">
                 <div class="o-layout__item u-1/2@tablet">
-                    <div class="c-massage__description">{{service.description}}</div>
+                    <div class="c-massage__description">{{service.description | markdownify}}</div>
                     {% assign prices = services.prices %}
                     {% include prices.html %}
                 </div>

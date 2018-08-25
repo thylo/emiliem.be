@@ -6,7 +6,7 @@
                 {% for workshop in page.workshops %}
                 <li class="u-margin-bottom o-list-bare__item c-workshop">
                     <h4>{{workshop.title}}</h4>
-                    <div>{{workshop.description}}</div>
+                    <div>{{workshop.description | markdownify}}</div>
                 </li>
                 {% endfor %}
             </ul>
