@@ -2,8 +2,8 @@
 template: consulting
 title: Le conseil en image en 4 étapes
 description: |
-  Je vous propose de vous (re)découvrir afin d’affirmer votre personnalité dans l’image que vous donnez à voir aux autres.
-  Le conseil en image permet de renforcer la confiance en soi et de se simplifier la vie. Soyez vous-mêmes, fiers de vous et bien dans vos baskets !
+  Je vous propose de vous (re)découvrir afin d’affirmer votre personnalité dans l’image que vous donnez à voir aux autres.
+  Le conseil en image permet de renforcer la confiance en soi et de se simplifier la vie. Soyez vous-mêmes, fiers de vous et bien dans vos baskets !
 services:
 - title: Analyse des couleurs
   prices:
