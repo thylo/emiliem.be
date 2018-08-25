@@ -25,7 +25,7 @@ services:
     price: 90€
   - description: Maquillage pour une occasion avec une séance d’essai
     price: 100€
-  - description: Maquillage pour une occasion sans séance d’essai
+  - description: Maquillage pour une occasion sans séance d’essai
     price: 60€
 - title: Visagisme
   photo: "/uploads/grimace-388987_1920.jpg"
