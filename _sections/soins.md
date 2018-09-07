@@ -27,7 +27,7 @@ services:
     price: 100€
   - description: Maquillage pour une occasion sans séance d’essai
     price: 60€
-- title: Visagisme
+- title: Epilations à l'orientale
   photo: "/uploads/grimace-388987_1920.jpg"
   description: La morphologie de votre visage détermine quelle paire de lunettes,
     coiffure, barbe et accessoires privilégier.
