@@ -35,7 +35,7 @@ services:
   - description: Visagisme et conseils lunettes, bijoux, accessoires, coiffure
     duration: 1h
     price: 60€
-- title: Analyse de style
+- title: Massage assis
   photo: "/uploads/img_6792_dxo---copie.jpg"
   description: Découvrez les coupes de vêtements et les matières qui vous mettent
     en valeur. Quel est votre style? Quels traits de votre personnalité souhaitez-
