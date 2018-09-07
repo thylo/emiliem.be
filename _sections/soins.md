@@ -51,7 +51,7 @@ services:
 weight: 2
 menu:
   header:
-    weight: 3
+    weight: 4
     title: Soins
 
 ---
