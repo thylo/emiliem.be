@@ -5,13 +5,13 @@ description: |
   Je vous propose de vous (re)découvrir afin d’affirmer votre personnalité dans l’image que vous donnez à voir aux autres.
   Le conseil en image permet de renforcer la confiance en soi et de se simplifier la vie. Soyez vous-mêmes, fiers de vous et bien dans vos baskets !
 services:
-- title: Analyse des couleurs
+- title: Soins du visage
   prices:
   - description: Analyse des couleurs approfondie + nuancier personnalisé
     duration: 1h30
     price: 75€
-  description: Découvrez l’énergie des couleurs, celles qui s’accordent avec vos
-    couleurs naturelles (peau, yeux, cheveux, bouche)
+  description: Découvrez l’énergie des couleurs, celles qui s’accordent avec vos couleurs
+    naturelles (peau, yeux, cheveux, bouche)
   photo: "/uploads/p1010868b.jpg"
 - title: Maquillage
   photo: "/uploads/p1010845a.jpg"
