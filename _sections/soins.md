@@ -13,7 +13,7 @@ services:
   description: Découvrez l’énergie des couleurs, celles qui s’accordent avec vos couleurs
     naturelles (peau, yeux, cheveux, bouche)
   photo: "/uploads/p1010868b.jpg"
-- title: Maquillage
+- title: Soins du corps
   photo: "/uploads/p1010845a.jpg"
   description: 'Sur base de votre analyse des couleurs, apprenez à vous maquiller
     de façon à mettre en lumière vos atouts naturels (ZAO MakeUp: maquillage naturel,
