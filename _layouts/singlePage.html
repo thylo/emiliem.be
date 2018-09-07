@@ -3,7 +3,7 @@ layout: default
 ---
 {% assign sections = site.sections | sort: 'weight' %}
 {% for page in sections %}
-    <div class="o-section">
+    <section class="o-section" id="{{page.menu.header.uid}}">
         {% include sections/{{page.template}}.html %}
-    </div>
+    </section>
 {% endfor %}

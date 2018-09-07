@@ -1,6 +1,5 @@
 ---
 title: Ateliers
-menuTitle: Ateliers
 template: workshops
 workshops:
 - title: Analyse des couleurs
@@ -29,5 +28,5 @@ weight: 4
 menu:
   header:
     weight: 5
-
+    uid: ateliers
 ---

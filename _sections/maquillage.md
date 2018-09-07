@@ -1,6 +1,5 @@
 ---
 template: makeup
-menuTitle: Maquillage
 title: Maquillage
 description: |-
   Chaque visage est beau et dispose d’atouts naturels. Le maquillage permet de mettre en lumière ces atouts, de se concentrer sur ses qualités, de souligner ses points forts. Il permet de redécouvrir son visage autrement, tout en restant soi-même.La peau du visage est sensible. Je fais le choix de n’utiliser que des produits naturels et bio.
@@ -14,5 +13,5 @@ weight: 2
 menu:
   header:
     weight: 2
-
+    uid: maquillage
 ---

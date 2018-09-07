@@ -1,9 +1,24 @@
 {% if menu %}
-<ul class="o-list-bare">
+<ul class="o-list-bare c-menu o-list-inline" id="js-menu">
 
     {% for item in menu %}
-    <li class="o-list-bare__item menu-item-{{ forloop.index }} {% if item.url == page.url %}active{% endif %}">
-        <a href="{{ item.url }}" title="Go to {{ item.title }}">
+    <li class="o-list-bare__item o-list-inline__item c-menu__item menu-item-{{ forloop.index }} {% if item.url == page.url %}active{% endif %}">
+        <a href="#{{ item.uid }}" title="Go to {{ item.title }}" class="c-menu__link">
+            {{ item.title }}
+        </a>
+        {% if item.children %}
+        {% assign menu = item.children %}
+        {% include menu.html %}
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>
+
+<ul class="o-list-bare c-menu c-scroll-menu o-list-inline" id="js-menu-scroll">
+
+    {% for item in menu %}
+    <li class="o-list-bare__item o-list-inline__item c-menu__item menu-item-{{ forloop.index }} {% if item.url == page.url %}active{% endif %}">
+        <a href="#{{ item.uid }}" title="Go to {{ item.title }}" class="c-menu__link">
             {{ item.title }}
         </a>
         {% if item.children %}

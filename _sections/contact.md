@@ -1,6 +1,5 @@
 ---
 title: A propos
-menuTitle: A propos
 template: contact
 date: 2018-08-15 16:20:00 +0000
 introduction: |-
@@ -24,5 +23,5 @@ contact: |-
 menu:
   header:
     weight: 6
-
+    uid: contact
 ---
