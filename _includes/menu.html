@@ -15,7 +15,11 @@
 </ul>
 
 <ul class="o-list-bare c-menu c-scroll-menu o-list-inline" id="js-menu-scroll">
-
+    <li class="o-list-bare__item">
+        <a href="/" class="u-padding-small c-menu__logo">
+            <img src="/assets/img/svg/small-logo.svg" alt="Emilie M." class="c-menu__svg">
+        </a>
+    </li>
     {% for item in menu %}
     <li class="o-list-bare__item o-list-inline__item c-menu__item menu-item-{{ forloop.index }} {% if item.url == page.url %}active{% endif %}">
         <a href="#{{ item.uid }}" title="Go to {{ item.title }}" class="c-menu__link">

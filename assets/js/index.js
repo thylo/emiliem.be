@@ -22,7 +22,7 @@
       const top = section.offsetTop - navHeight,
         bottom = top + section.clientHeight;
 
-      if (scroll_pos >= top && scroll_pos <= bottom) {
+      if (scroll_pos >= (top-(2*navHeight)) && scroll_pos <= bottom) {
         [...menu.querySelectorAll(".c-menu__link")].forEach(link => {
           link.classList.remove("active");
         });
