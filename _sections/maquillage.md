@@ -12,6 +12,6 @@ more: Sur base d’une analyse de vos couleurs, je vous propose un cours d’aut
 weight: 2
 menu:
   header:
-    weight: 2
+    weight: 3
     uid: maquillage
 ---
