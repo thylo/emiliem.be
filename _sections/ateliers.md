@@ -1,5 +1,6 @@
 ---
 title: Ateliers
+menuTitle: Ateliers
 template: workshops
 workshops:
 - title: Analyse des couleurs

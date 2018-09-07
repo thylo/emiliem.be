@@ -1,5 +1,6 @@
 ---
 template: consulting
+menuTitle: Soins
 title: Des soins esthetiques bio et naturels
 description: |
   Je vous propose de vous (re)découvrir afin d’affirmer votre personnalité dans l’image que vous donnez à voir aux autres.

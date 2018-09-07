@@ -1,5 +1,6 @@
 ---
 template: makeup
+menuTitle: Maquillage
 title: Maquillage
 description: Chaque visage est beau et dispose d’atouts naturels. Le maquillage permet
   de mettre en lumière ces atouts, de se concentrer sur ses qualités, de souligner

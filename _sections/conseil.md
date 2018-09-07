@@ -1,5 +1,6 @@
 ---
 template: consulting
+menuTitle: Conseil en image
 title: Le conseil en image en 4 étapes
 description: |
   Je vous propose de vous (re)découvrir afin d’affirmer votre personnalité dans l’image que vous donnez à voir aux autres.

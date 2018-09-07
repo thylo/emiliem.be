@@ -1,8 +1,8 @@
 {% if menu %}
-<ul>
+<ul class="o-list-bare">
 
     {% for item in menu %}
-    <li class="menu-item-{{ forloop.index }} {% if item.url == page.url %}active{% endif %}">
+    <li class="o-list-bare__item menu-item-{{ forloop.index }} {% if item.url == page.url %}active{% endif %}">
         <a href="{{ item.url }}" title="Go to {{ item.title }}">
             {{ item.title }}
         </a>
