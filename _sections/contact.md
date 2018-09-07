@@ -22,6 +22,6 @@ contact: |-
   Walhain (déplacements possibles Wallonie et Bruxelles)
 menu:
   header:
-    weight: 10
+    weight: 6
 
 ---

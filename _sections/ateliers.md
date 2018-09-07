@@ -4,12 +4,12 @@ template: workshops
 workshops:
 - title: Analyse des couleurs
   photo: "/assets/p1020038.jpg"
-  description: Découvrez l’énergie des couleurs. Chaque participant bénéficie
-    d’une analyse des couleurs et reçoit un nuancier personnalisé.
+  description: Découvrez l’énergie des couleurs. Chaque participant bénéficie d’une
+    analyse des couleurs et reçoit un nuancier personnalisé.
 - title: Maquillage
   photo: "/assets/p1010851a.jpg"
-  description: Grâce à des conseils de couleurs adaptés à chaque participant,
-    découvrez les techniques pour vous maquiller naturellement au quotidien.
+  description: Grâce à des conseils de couleurs adaptés à chaque participant, découvrez
+    les techniques pour vous maquiller naturellement au quotidien.
 - title: Soin des mains
   photo: "/assets/p1010840a.jpg"
   description: Gommage, masque, massage et manucure. Avec des produits naturels, prenez
@@ -27,6 +27,6 @@ prices:
 weight: 4
 menu:
   header:
-    weight: 4
+    weight: 5
 
 ---
