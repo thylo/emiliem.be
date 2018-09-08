@@ -1,31 +1,67 @@
 .c-menu {
+  display: none;
   background: white;
   text-align: center;
+  @include mq($from: tablet) {
+    display: block;
+  }
+
   &__link {
+    padding: $inuit-global-spacing-unit-small;
+    text-decoration: none;
+    color: #cc8776;
+    display: block;
     @include mq($from: tablet) {
       padding: $inuit-global-spacing-unit-small;
       display: inline-block;
-      text-decoration: none;
-      color: #cc8776;
     }
-    &.active{
+    &.active {
       color: #222222;
     }
   }
-  &__logo{
+  &__logo {
     display: inline-block;
   }
+  &__item {
+    @include mq($until: tablet) {
+      display: block;
+    }
+  }
 }
+
+.c-menu-toggle {
+  position: fixed;
+  padding: $inuit-global-spacing-unit;
+  cursor: pointer;
+  @include mq($from: tablet) {
+    display: none;
+  }
+}
+
 .c-scroll-menu {
   z-index: 99;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  transform: translate(0, -100%);
-  transition: all .3s ease-out;
+  transition: all 0.3s ease-out;
+  @include mq($until: tablet) {
+    height: 100%;
+  }
+  @include mq($from: tablet) {
+    transform: translate(0, -100%);
+  }
+  &__close {
+    position: absolute;
+    left: 0;
+  }
+  &.visible {
+    display: block;
+  }
   &.scroll {
-    transform: translate(0, 0);
-    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    @include mq($from: tablet) {
+      transform: translate(0, 0);
+      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    }
   }
 }
