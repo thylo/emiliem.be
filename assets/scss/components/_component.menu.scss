@@ -30,6 +30,8 @@
 }
 
 .c-menu-toggle {
+  border: none;
+  background: white;
   position: fixed;
   padding: $inuit-global-spacing-unit;
   cursor: pointer;
