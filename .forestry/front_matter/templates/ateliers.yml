@@ -8,8 +8,8 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: workshop
-  label: Workshop
+- name: workshops
+  label: Ateliers
   type: field_group_list
   fields:
   - name: title
@@ -24,7 +24,7 @@ fields:
     default: ''
   - type: file
     label: image
-    name: image
+    name: photo
   hidden: false
   default: ''
 pages:
