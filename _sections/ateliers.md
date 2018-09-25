@@ -16,7 +16,7 @@ workshops:
     soin de vos mains et apprenez les gestes pour reproduire chez vous ce rituel beauté
     et bien-être.
 - title: Auto massages
-  photo: "/assets/p1020051.jpg"
+  photo: "/uploads/chaise.jpg"
   description: Quelques minutes de massages que l’on s’offre chaque jour peuvent procurer
     une détente incroyable. Découvrez les gestes pour vous faire du bien.
 prices:
