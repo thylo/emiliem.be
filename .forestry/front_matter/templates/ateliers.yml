@@ -24,5 +24,17 @@ fields:
     default: ''
   hidden: false
   default: ''
+- type: field_group_list
+  name: prices
+  label: Prices
+  fields:
+  - type: textarea
+    name: description
+  - type: text
+    name: duration
+    label: duration
+  - type: text
+    name: price
+    label: price
 pages:
 - _sections/ateliers.md
