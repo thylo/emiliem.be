@@ -3,7 +3,7 @@ title: Ateliers
 template: workshops
 workshops:
 - title: Analyse des couleurs
-  photo: "/assets/p1020038.jpg"
+  photo: "/uploads/chaise.jpg"
   description: Découvrez l’énergie des couleurs. Chaque participant bénéficie d’une
     analyse des couleurs et reçoit un nuancier personnalisé.
 - title: Maquillage
@@ -29,4 +29,5 @@ menu:
   header:
     weight: 5
     uid: ateliers
+
 ---
