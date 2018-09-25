@@ -30,11 +30,16 @@ fields:
   fields:
   - type: textarea
     name: description
+    label: Description
   - type: text
     name: duration
     label: duration
+    config:
+      required: false
   - type: text
     name: price
     label: price
+    config:
+      required: true
 pages:
 - _sections/ateliers.md
