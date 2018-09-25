@@ -22,9 +22,6 @@ fields:
     type: textarea
     hidden: false
     default: ''
-  - type: file
-    label: image
-    name: photo
   hidden: false
   default: ''
 pages:
