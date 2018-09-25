@@ -3,16 +3,6 @@ label: Maquillage
 hide_body: true
 is_partial: false
 fields:
-- name: permalink
-  label: Permalink
-  type: text
-  hidden: false
-  default: ''
-- name: layout
-  label: Layout
-  type: text
-  hidden: false
-  default: ''
 - name: title
   label: Title
   type: text
