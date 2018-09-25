@@ -57,4 +57,3 @@ fields:
   default: ''
 pages:
 - _sections/index.md
-- index.md
