@@ -11,7 +11,7 @@ workshops:
   description: Grâce à des conseils de couleurs adaptés à chaque participant, découvrez
     les techniques pour vous maquiller naturellement au quotidien.
 - title: Soin des mains
-  photo: "/assets/p1010840a.jpg"
+  photo: "/uploads/p1010868b.jpg"
   description: Gommage, masque, massage et manucure. Avec des produits naturels, prenez
     soin de vos mains et apprenez les gestes pour reproduire chez vous ce rituel beauté
     et bien-être.
