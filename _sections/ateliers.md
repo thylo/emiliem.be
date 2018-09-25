@@ -7,7 +7,7 @@ workshops:
   description: Découvrez l’énergie des couleurs. Chaque participant bénéficie d’une
     analyse des couleurs et reçoit un nuancier personnalisé.
 - title: Maquillage
-  photo: "/assets/p1010851a.jpg"
+  photo: "/uploads/p1010845a.jpg"
   description: Grâce à des conseils de couleurs adaptés à chaque participant, découvrez
     les techniques pour vous maquiller naturellement au quotidien.
 - title: Soin des mains
