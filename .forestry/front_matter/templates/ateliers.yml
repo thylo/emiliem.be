@@ -16,7 +16,7 @@ fields:
     label: Title
     type: text
     hidden: false
-    default: ''
+    default: Default title
   - name: description
     label: Description
     type: textarea
