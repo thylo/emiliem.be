@@ -1,18 +1,21 @@
 ---
 template: consulting
-title: Des soins esthetiques bio et naturels
-description: |
-  Je vous propose de vous (re)découvrir afin d’affirmer votre personnalité dans l’image que vous donnez à voir aux autres.
-  Le conseil en image permet de renforcer la confiance en soi et de se simplifier la vie. Soyez vous-mêmes, fiers de vous et bien dans vos baskets !
+title: Des soins esthétiques bio et naturels
+description: 'Avec les soins esthétiques qui utilisent, tantôt l’aromathérapie, tantôt
+  la chromothérapie, tantôt des techniques orientales ancestrales, je m’adapte aux
+  émotions de chacun(e) afin de prodiguer un bien-être global.
+
+'
 services:
-- title: Soins du visage
-  prices:
-  - description: Analyse des couleurs approfondie + nuancier personnalisé
-    duration: 1h30
-    price: 75€
-  description: Découvrez l’énergie des couleurs, celles qui s’accordent avec vos couleurs
-    naturelles (peau, yeux, cheveux, bouche)
-  photo: "/uploads/p1010868b.jpg"
+- title: Soins visage
+  prices: []
+  description: |-
+    Instant Pureté (Nafha) – 30 min. – 30€
+    Soin visage Oriental (Nafha) – 1h30 – 90€
+    Soin visage Intemporel (Nafha) – 1h15 – 80€
+    Soin visage Altearah : Oxygène essentielle, Energie essentielle, Pureté essentielle, Plénitude essentielle ou Sérénité essentielle
+    Version courte 1h 60h – Version longue 1h30 80€
+  photo: "/uploads/NAFHA-Logo-300x218.jpg"
 - title: Soins du corps
   photo: "/uploads/p1010845a.jpg"
   description: 'Sur base de votre analyse des couleurs, apprenez à vous maquiller
@@ -26,14 +29,6 @@ services:
   - description: Maquillage pour une occasion avec une séance d’essai
     price: 100€
   - description: Maquillage pour une occasion sans séance d’essai
-    price: 60€
-- title: Epilations à l'orientale
-  photo: "/uploads/grimace-388987_1920.jpg"
-  description: La morphologie de votre visage détermine quelle paire de lunettes,
-    coiffure, barbe et accessoires privilégier.
-  prices:
-  - description: Visagisme et conseils lunettes, bijoux, accessoires, coiffure
-    duration: 1h
     price: 60€
 - title: Massage assis
   photo: "/uploads/p1010827a.jpg"
@@ -54,4 +49,5 @@ menu:
     weight: 4
     title: Soins
     uid: soins
+
 ---
