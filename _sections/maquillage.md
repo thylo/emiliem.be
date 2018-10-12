@@ -1,10 +1,16 @@
 ---
 template: makeup
-title: Maquillage
+title: Maquillage ZAO
 description: |-
-  Chaque visage est beau et dispose d’atouts naturels. Le maquillage permet de mettre en lumière ces atouts, de se concentrer sur ses qualités, de souligner ses points forts. Il permet de redécouvrir son visage autrement, tout en restant soi-même.La peau du visage est sensible. Je fais le choix de n’utiliser que des produits naturels et bio.
+  Quelques gestes simples et un rendu tout à fait naturel peuvent sublimer nos atouts et nous donner plus de confiance en nous. J'utilise le maquillage ZAO, naturel, bio, éthique, rechargeable, et super coloré ! 
 
-  J’utilise les produits de soin de la marque *Senzia* (produits naturels fabriqués à l’aide d’ingrédients écologiques issus du commerce équitable).Quant au maquillage, j’ai choisi la marque ZAO MakeUp, du maquillage naturel, rechargeable et durable.Autant le maquillage peut sublimer un visage en seulement quelques gestes, autant il peut également rendre un visage terne s’il est mal choisi.
+  * Cours d’auto-maquillage : Emilie vous accompagne pour que vous puissiez trouver la technique et le maquillage qui convient à vos envies et votre pratique quotidienne.
+
+  #### _Analyse rapide des couleurs + cours de maquillage + nuancier personnalisé + fiche technique 2h 90€_
+
+  * Maquillage pour une occasion (avec ou sans essai)
+
+  #### _Avec essai 100€ – sans séance d’essai 60€_
 more: Sur base d’une analyse de vos couleurs, je vous propose un cours d’auto maquillage
   (pour tous les jours ou pour une occasion). Je vous apprends les gestes, mais également
   à choisir les couleurs qui s’accordent avec vos couleurs naturelles (peau, yeux,
@@ -14,4 +20,5 @@ menu:
   header:
     weight: 3
     uid: maquillage
+
 ---
