@@ -7,7 +7,7 @@ description: 'Avec les soins esthétiques qui utilisent, tantôt l’aromathéra
 
 '
 services:
-- title: Soins visage et corps
+- title: Soins combo (visage et corps) Altearah
   prices:
   - price: 90€
     description: 'Soin Combo Émeraude/ Fraîcheur Absolue: Oxygéner les tissus et le
