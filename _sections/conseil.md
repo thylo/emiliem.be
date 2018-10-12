@@ -17,7 +17,7 @@ services:
     et de bonheur, car nous pourrons d’avantage écouter notre intuition pour nous
     habiller dans des couleurs qui nous nourrissent de leur énergie.
   photo: "/uploads/p1010868b.jpg"
-- title: Maquillage
+- title: Maquillage ZAO
   photo: "/uploads/p1010845a.jpg"
   description: 'Sur base de votre analyse des couleurs, apprenez à vous maquiller
     de façon à mettre en lumière vos atouts naturels (ZAO MakeUp: maquillage naturel,
