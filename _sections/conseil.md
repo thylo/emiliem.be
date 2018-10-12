@@ -42,7 +42,7 @@ services:
   - description: Visagisme et conseils lunettes, bijoux, accessoires, coiffure
     duration: 1h
     price: 60€
-- title: Analyse de style
+- title: Analyse de style et tri de la garde robe
   photo: "/uploads/img_6792_dxo---copie.jpg"
   description: |
     La morphologie du corps : nous sommes tous différents et aimons tous mettre en avant des parties différentes de notre corps. Par les matières, les coupes et les couleurs, chaque vêtement dit quelque chose de nous. Je vous aide à trouver ce qui vous correspond au mieux.
