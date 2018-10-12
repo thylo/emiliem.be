@@ -44,10 +44,9 @@ services:
     price: 60€
 - title: Analyse de style
   photo: "/uploads/img_6792_dxo---copie.jpg"
-  description: Découvrez les coupes de vêtements et les matières qui vous mettent
-    en valeur. Quel est votre style? Quels traits de votre personnalité souhaitez-
-    vous mettre en avant dans votre image? Cette étape est cruciale pour renforcer
-    la confiance en soi.
+  description: |
+    La morphologie du corps : nous sommes tous différents et aimons tous mettre en avant des parties différentes de notre corps. Par les matières, les coupes et les couleurs, chaque vêtement dit quelque chose de nous. Je vous aide à trouver ce qui vous correspond au mieux.
+    Le tri de la garde-robe : Le défi : ne garder que ce que vous allez porter ! Créer des tenues, donner des idées, je suis là pour vous faire voir votre garde-robe d’un œil différent. « J’ai rien à me mettre », c’est du passé !
   prices:
   - description: Analyse rapide des couleurs + morphologie corps + style
     duration: 1h30
