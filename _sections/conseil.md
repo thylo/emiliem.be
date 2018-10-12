@@ -3,15 +3,19 @@ template: consulting
 title: Le conseil en image en 4 étapes
 description: |
   Je vous propose de vous (re)découvrir afin d’affirmer votre personnalité dans l’image que vous donnez à voir aux autres.
-  Le conseil en image permet de renforcer la confiance en soi et de se simplifier la vie. Soyez vous-mêmes, fiers de vous et bien dans vos baskets !
+  Le conseil en image permet de renforcer la confiance en soi et de se simplifier la vie. Soyez vous-mêmes, fiers de vous et bien dans vos baskets !
 services:
 - title: Analyse des couleurs
   prices:
   - description: Analyse des couleurs approfondie + nuancier personnalisé
     duration: 1h30
     price: 75€
-  description: Découvrez l’énergie des couleurs, celles qui s’accordent avec vos couleurs
-    naturelles (peau, yeux, cheveux, bouche)
+  description: L’analyse des couleurs nous questionne sur pourquoi on adore une couleur
+    et on en déteste une autre, pourquoi les couleurs chaudes ou froides sont préférables
+    à porter près de notre visage, etc. Découvrir l’énergie des couleurs et leur donner
+    une place de choix dans nos dressings est une étape clé vers plus de simplicité
+    et de bonheur, car nous pourrons d’avantage écouter notre intuition pour nous
+    habiller dans des couleurs qui nous nourrissent de leur énergie.
   photo: "/uploads/p1010868b.jpg"
 - title: Maquillage
   photo: "/uploads/p1010845a.jpg"
@@ -54,4 +58,5 @@ menu:
     weight: 2
     title: Conseil en image
     uid: conseil
+
 ---
