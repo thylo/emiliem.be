@@ -32,9 +32,12 @@ services:
   - description: Maquillage pour une occasion sans séance d’essai
     price: 60€
 - title: Visagisme
-  photo: "/uploads/grimace-388987_1920.jpg"
-  description: La morphologie de votre visage détermine quelle paire de lunettes,
-    coiffure, barbe et accessoires privilégier.
+  photo: "/uploads/LOGO-EMILIEM.jpg"
+  description: 'La morphologie du visage : vous avez tous déjà entendu : « Waouw,
+    ta nouvelle coiffure, tu as changé de tête ! ». En effet, la coiffure, les lunettes,
+    la forme et la taille des bijoux portés proches du visages, permettent de changer
+    l’apparence d’un visage. En fonction de la forme de votre visage et de votre style,
+    je vous guide pour trouver l’image qui colle à votre personnalité.'
   prices:
   - description: Visagisme et conseils lunettes, bijoux, accessoires, coiffure
     duration: 1h
