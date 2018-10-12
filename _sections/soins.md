@@ -9,6 +9,14 @@ description: 'Avec les soins esthétiques qui utilisent, tantôt l’aromathéra
 services:
 - title: Soins visage et corps
   prices:
+  - description: 'Soin Combo Turquoise/ Sereine Attitude: Effet myorelaxant ; anti
+      rides; repulpant; lissant; remodelage du visage ; fraîcheur du teint; retrouver
+      une énergie plus fluide et un relâchement de toutes les tensions corporelles
+      et une ouverture. Sur le plan émotionnel: offrir une détente profonde, un lâcher
+      prise émotionnel et mental qui permet d’accepter et de s’adapter aux mouvements
+      de la vie ; gagner en sérénité.'
+    duration: 1h30
+    price: 90€
   - description: 'Soin Combo Orange/ Radiance: Apporter hydratation, nutrition et
       fermeté, luminosité du teint; l’énergie est rassemblée, recentrée dans l’abdomen
       pour une meilleure gestion des ressources. Sur le plan émotionnel: centrage,
