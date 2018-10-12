@@ -45,11 +45,11 @@ fields:
     config:
       source:
         type: pages
-        section: jekyll-pages
-      required: true
+        section: ''
+      required: false
     label: link
     name: link
-    default: conseil.md
+    default: ''
   - type: file
     name: image
     label: Image
