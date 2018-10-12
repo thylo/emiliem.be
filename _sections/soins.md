@@ -9,6 +9,14 @@ description: 'Avec les soins esthétiques qui utilisent, tantôt l’aromathéra
 services:
 - title: Soins visage et corps
   prices:
+  - description: 'Soin Combo Orange/ Radiance: Apporter hydratation, nutrition et
+      fermeté, luminosité du teint; l’énergie est rassemblée, recentrée dans l’abdomen
+      pour une meilleure gestion des ressources. Sur le plan émotionnel: centrage,
+      équilibre et sécurité émotionnelle; recharge nerveuse; optimisme ; confiance
+      en soi; rayonnement; pouvoir prendre de la distance, ne plus être « éponge »
+      de son environnement.'
+    duration: 1h30
+    price: 90€
   - description: 'Soin Combo Blanc/ Pure clarté: Purifier et détoxifier la peau; illuminer
       le teint. Sur le plan émotionnel: se dégager de toutes les pollutions qui font
       écran à qui nous sommes réellement ; retrouver et protéger son intégrité; être
