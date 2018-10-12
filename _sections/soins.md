@@ -7,6 +7,17 @@ description: 'Avec les soins esthétiques qui utilisent, tantôt l’aromathéra
 
 '
 services:
+- title: Soins visage et corps
+  prices:
+  - price: 90€
+    description: 'Soin Combo Émeraude/ Fraîcheur Absolue: Oxygéner les tissus et le
+      sang pour retrouver de l’éclat et de l’équilibre. Sur le plan émotionnel: se
+      sentir libre de s’accorder du temps pour soi afin de nourrir ses besoins essentiels;
+      se retrouver pour ouvrir à nouveau son cœur et prendre sa juste place; se redéfinir
+      ; établir ses priorités.'
+    duration: 1h30
+  description: ''
+  photo: ''
 - title: Soins visage
   prices: []
   description: |-
