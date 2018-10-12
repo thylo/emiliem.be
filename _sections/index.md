@@ -1,10 +1,13 @@
 ---
-title: Conseil en image<br/>Maquillage<br/>Massage<br/>
+title: Conseil en image<br/>Maquillage
 template: home
-intro: |
-  L'image que l'on donne à voir de nous est importante, tant dans notre vie professionnelle (il faut que notre image colle à celle de l'entreprise ou à notre métier) que personnelle. Dans les deux cas, avoir une image qui correspond à notre personnalité augmente notre confiance en nous.
+intro: 'Certains l’appellent « relooking », d’autres « conseil en image », pour moi,
+  il s’agit d’avantage « d’accompagnement vers une découverte de soi » : quel est
+  l’impact de telle couleur sur mon visage ? Quelle coupe de vêtement met le mieux
+  en valeur mes atouts naturels ? Quel maquillage pour sublimer mes beaux yeux et
+  mes jolies lèvres ? Quel est mon style ?
 
-  Entreprendre ce voyage est passionnant, il permet un retour vers soi, une réflexion sur ce que notre corps et ses attitudes transmettent de nous. Les massages et auto massages aident également à se reconnecter à notre corps et à ses sensations.
+'
 home_links:
 - title: Conseil en image
   photo: "/assets/p1010868b.jpg"
