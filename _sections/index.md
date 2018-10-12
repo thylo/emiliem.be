@@ -21,12 +21,6 @@ home_links:
     des outils bien-être à mettre en pratique au quotidien.
   link: ateliers.md
   image: "/uploads/p1010840a.jpg"
-- title: Massage
-  photo: "/assets/p1010825b.jpg"
-  description: Pour vous mener vers une paix intérieure, une sensation de bien être
-    et une détente aux effets durables.
-  link: massage.md
-  image: "/uploads/p1010825b.jpg"
 - title: Maquillage
   photo: "/assets/p1010851a.jpg"
   description: Pour apprendre à vous maquiller rapidement et naturellement avec des
