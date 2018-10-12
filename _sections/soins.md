@@ -30,17 +30,20 @@ services:
   prices: []
 - title: Massage assis
   photo: "/uploads/p1010827a.jpg"
-  description: Découvrez les coupes de vêtements et les matières qui vous mettent
-    en valeur. Quel est votre style? Quels traits de votre personnalité souhaitez-
-    vous mettre en avant dans votre image? Cette étape est cruciale pour renforcer
-    la confiance en soi.
+  description: Originaire du Japon, où il est d’ailleurs considéré comme une médecine,
+    le shiatsu signifie « pression des doigts ». Le massage assis libère la circulation
+    d’énergie en utilisant des techniques de shiatsu telles que des pressions sur
+    des points situés le long des méridiens, des percussions, des tapotements et des
+    étirements. Ce massage permet de réduire le stress et les tensions. Pratiqué régulièrement,
+    il augmente la créativité et la concentration. Tonifiant et stimulant, le massage
+    assis permet également de se relaxer en profondeur.Le massage se donne sur une
+    personne habillée, assise sur une chaise ergonomique. Une séance dure 15 minutes
+    et permet de masser les épaules, la nuque, la tête, les bras, les mains, le dos,
+    les hanches et les jambes.
   prices:
-  - description: Analyse rapide des couleurs + morphologie corps + style
-    duration: 1h30
-    price: 75€
-  - description: Tri de la garde robe
-    duration: 2h
-    price: 100€
+  - description: ''
+    duration: 20 minutes
+    price: 20€
 weight: 2
 menu:
   header:
