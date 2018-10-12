@@ -9,12 +9,25 @@ description: 'Avec les soins esthétiques qui utilisent, tantôt l’aromathéra
 services:
 - title: Soins visage et corps
   prices:
-  - description: 'Soin Combo Turquoise/ Sereine Attitude: Effet myorelaxant ; anti
-      rides; repulpant; lissant; remodelage du visage ; fraîcheur du teint; retrouver
-      une énergie plus fluide et un relâchement de toutes les tensions corporelles
-      et une ouverture. Sur le plan émotionnel: offrir une détente profonde, un lâcher
-      prise émotionnel et mental qui permet d’accepter et de s’adapter aux mouvements
-      de la vie ; gagner en sérénité.'
+  - price: 90€
+    description: 'Soin Combo Émeraude/ Fraîcheur Absolue: Oxygéner les tissus et le
+      sang pour retrouver de l’éclat et de l’équilibre. Sur le plan émotionnel: se
+      sentir libre de s’accorder du temps pour soi afin de nourrir ses besoins essentiels;
+      se retrouver pour ouvrir à nouveau son cœur et prendre sa juste place; se redéfinir
+      ; établir ses priorités.'
+    duration: 1h30
+  - description: 'Soin Combo Pourpre/ Ressource vitale: Régénérer et équilibrer les
+      épidermes dévitalisés; activer le renouvellement cellulaire; offrir un grain
+      de peau régulier, toucher satin; relancer la circulation de l’énergie. Sur le
+      plan émotionnel: être capable et avoir envie de se reprendre en mains; agir
+      pour s’épanouir ; retrouver le plaisir de la vie et la conviction que tout est
+      possible.'
+    duration: 1h30
+    price: 90€
+  - description: 'Soin Combo Blanc/ Pure clarté: Purifier et détoxifier la peau; illuminer
+      le teint. Sur le plan émotionnel: se dégager de toutes les pollutions qui font
+      écran à qui nous sommes réellement ; retrouver et protéger son intégrité; être
+      soi.'
     duration: 1h30
     price: 90€
   - description: 'Soin Combo Orange/ Radiance: Apporter hydratation, nutrition et
@@ -25,27 +38,14 @@ services:
       de son environnement.'
     duration: 1h30
     price: 90€
-  - description: 'Soin Combo Blanc/ Pure clarté: Purifier et détoxifier la peau; illuminer
-      le teint. Sur le plan émotionnel: se dégager de toutes les pollutions qui font
-      écran à qui nous sommes réellement ; retrouver et protéger son intégrité; être
-      soi.'
+  - description: 'Soin Combo Turquoise/ Sereine Attitude: Effet myorelaxant ; anti
+      rides; repulpant; lissant; remodelage du visage ; fraîcheur du teint; retrouver
+      une énergie plus fluide et un relâchement de toutes les tensions corporelles
+      et une ouverture. Sur le plan émotionnel: offrir une détente profonde, un lâcher
+      prise émotionnel et mental qui permet d’accepter et de s’adapter aux mouvements
+      de la vie ; gagner en sérénité.'
     duration: 1h30
     price: 90€
-  - description: 'Soin Combo Pourpre/ Ressource vitale: Régénérer et équilibrer les
-      épidermes dévitalisés; activer le renouvellement cellulaire; offrir un grain
-      de peau régulier, toucher satin; relancer la circulation de l’énergie. Sur le
-      plan émotionnel: être capable et avoir envie de se reprendre en mains; agir
-      pour s’épanouir ; retrouver le plaisir de la vie et la conviction que tout est
-      possible.'
-    duration: 1h30
-    price: 90€
-  - price: 90€
-    description: 'Soin Combo Émeraude/ Fraîcheur Absolue: Oxygéner les tissus et le
-      sang pour retrouver de l’éclat et de l’équilibre. Sur le plan émotionnel: se
-      sentir libre de s’accorder du temps pour soi afin de nourrir ses besoins essentiels;
-      se retrouver pour ouvrir à nouveau son cœur et prendre sa juste place; se redéfinir
-      ; établir ses priorités.'
-    duration: 1h30
   description: ''
   photo: ''
 - title: Soins visage
