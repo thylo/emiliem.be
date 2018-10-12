@@ -9,6 +9,12 @@ description: 'Avec les soins esthétiques qui utilisent, tantôt l’aromathéra
 services:
 - title: Soins visage et corps
   prices:
+  - description: 'Soin Combo Blanc/ Pure clarté: Purifier et détoxifier la peau; illuminer
+      le teint. Sur le plan émotionnel: se dégager de toutes les pollutions qui font
+      écran à qui nous sommes réellement ; retrouver et protéger son intégrité; être
+      soi.'
+    duration: 1h30
+    price: 90€
   - description: 'Soin Combo Pourpre/ Ressource vitale: Régénérer et équilibrer les
       épidermes dévitalisés; activer le renouvellement cellulaire; offrir un grain
       de peau régulier, toucher satin; relancer la circulation de l’énergie. Sur le
