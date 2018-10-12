@@ -9,6 +9,14 @@ description: 'Avec les soins esthétiques qui utilisent, tantôt l’aromathéra
 services:
 - title: Soins visage et corps
   prices:
+  - description: 'Soin Combo Pourpre/ Ressource vitale: Régénérer et équilibrer les
+      épidermes dévitalisés; activer le renouvellement cellulaire; offrir un grain
+      de peau régulier, toucher satin; relancer la circulation de l’énergie. Sur le
+      plan émotionnel: être capable et avoir envie de se reprendre en mains; agir
+      pour s’épanouir ; retrouver le plaisir de la vie et la conviction que tout est
+      possible.'
+    duration: 1h30
+    price: 90€
   - price: 90€
     description: 'Soin Combo Émeraude/ Fraîcheur Absolue: Oxygéner les tissus et le
       sang pour retrouver de l’éclat et de l’équilibre. Sur le plan émotionnel: se
