@@ -53,6 +53,9 @@ services:
   - description: Instant Pureté (Nafha)
     duration: 30 min
     price: 30 €
+  - description: Soin visage Oriental (Nafha)
+    duration: 1h30
+    price: 90 €
   - description: Soin visage Intemporel (Nafha)
     duration: 1h15
     price: 80 €
