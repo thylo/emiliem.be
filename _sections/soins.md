@@ -53,6 +53,10 @@ services:
   - description: Instant Pureté (Nafha)
     duration: 30 min
     price: 30 €
+  - description: 'Soin visage Altearah: Oxygène essentielle, Energie essentielle,
+      Pureté essentielle, Plénitude essentielle ou Sérénité essentielle'
+    duration: 'Version courte: 1h  / Version longue: 1h30'
+    price: 'Version courte: 60 €  / Version longue: 80 €'
   description: |-
     Instant Pureté (Nafha) – 30 min. – 30€
     Soin visage Oriental (Nafha) – 1h30 – 90€
