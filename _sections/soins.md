@@ -53,6 +53,9 @@ services:
   - description: Instant Pureté (Nafha)
     duration: 30 min
     price: 30 €
+  - description: Soin visage Intemporel (Nafha)
+    duration: 1h15
+    price: 80 €
   - description: 'Soin visage Altearah: Oxygène essentielle, Energie essentielle,
       Pureté essentielle, Plénitude essentielle ou Sérénité essentielle'
     duration: 'Version courte: 1h  / Version longue: 1h30'
