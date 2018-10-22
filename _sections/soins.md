@@ -77,6 +77,9 @@ services:
     Rituel reconnexion (Altearah) – 1h30 – 90€
     Olfaction et massage (Altearah) – 1h – 60€
   prices:
+  - description: Olfaction et gommage (Altearah)
+    duration: 40 min
+    price: 40 €
   - description: Olfaction, gommage et massage (Altearah)
     duration: 1h30
     price: 90 €
