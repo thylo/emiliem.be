@@ -67,15 +67,7 @@ services:
   photo: "/uploads/NAFHA-Logo-300x218.jpg"
 - title: Soins du corps
   photo: "/uploads/NouveauLogo-300x147.jpg"
-  description: |-
-    Douceur Orientale (Nafha) – Zone au choix : dos, pieds, cuir chevelu – 30 min – 30€
-    Modelage et soin du cuir chevelu (Nafha) – Modelage 30 min 45€ – Soin complet 45 min – 60€
-    Rituel détente (Nafha) – 1h30 – 85€
-    Olfaction et gommage (Altearah) – 40 min – 40 €
-    Olfaction, gommage et massage (Altearah) – 1h30 – 90€
-    Olfaction, gommage et enveloppement détox (Altearah) – 1h30 – 90€
-    Rituel reconnexion (Altearah) – 1h30 – 90€
-    Olfaction et massage (Altearah) – 1h – 60€
+  description: ''
   prices:
   - description: 'Douceur Orientale (Nafha) - Zone au choix : dos, pieds, cuir chevelu'
     duration: 30 min.
