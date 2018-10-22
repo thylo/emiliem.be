@@ -1,11 +1,11 @@
 ---
 title: Conseil en image<br/>Maquillage<br/>
 template: home
-intro: 'Certains l’appellent « relooking », d’autres « conseil en image », pour moi,
-  il s’agit d’avantage « d’accompagnement vers une découverte de soi » : quel est
-  l’impact de telle couleur sur mon visage ? Quelle coupe de vêtement met le mieux
-  en valeur mes atouts naturels ? Quel maquillage pour sublimer mes beaux yeux et
-  mes jolies lèvres ? Quel est mon style ?
+intro: 'Certains l’appellent «relooking», d’autres «conseil en image», pour moi, il
+  s’agit davantage «d’accompagnement vers une découverte de soi» : quel est l’impact
+  de telle couleur sur mon visage ? Quelle coupe de vêtement met le mieux en valeur
+  mes atouts naturels ? Quel maquillage pour sublimer mes beaux yeux et mes jolies
+  lèvres ? Quel est mon style ?
 
 '
 home_links:
