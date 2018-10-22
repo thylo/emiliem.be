@@ -77,6 +77,9 @@ services:
     Rituel reconnexion (Altearah) – 1h30 – 90€
     Olfaction et massage (Altearah) – 1h – 60€
   prices:
+  - description: Rituel Détente (Nafha)
+    duration: 1h30
+    price: 85 €
   - description: Olfaction et gommage (Altearah)
     duration: 40 min
     price: 40 €
