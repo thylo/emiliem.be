@@ -2,15 +2,18 @@
 template: makeup
 title: Maquillage ZAO
 description: |-
-  Quelques gestes simples et un rendu tout à fait naturel peuvent sublimer nos atouts et nous donner plus de confiance en nous. J'utilise le maquillage ZAO, naturel, bio, éthique, rechargeable, et super coloré ! 
+  Quelques gestes simples et un rendu tout à fait naturel peuvent sublimer nos atouts et nous donner plus de confiance en nous. J'utilise le maquillage ZAO, naturel, bio, éthique, rechargeable, et super coloré !
 
   * Cours d’auto-maquillage : je vous accompagne pour que vous puissiez trouver la technique et le maquillage qui convient à vos envies et votre pratique quotidienne.
 
-  #### _Analyse rapide des couleurs + cours de maquillage + nuancier personnalisé + fiche technique 2h 90€_
+    _Analyse rapide des couleurs + cours de maquillage + nuancier personnalisé + fiche technique: 2h 90€_
+
 
   * Maquillage pour une occasion (avec ou sans essai)
 
-  #### _Avec essai 100€ – sans séance d’essai 60€![](/uploads/LOGO-ZAO-FUSHIA-2-LIGNES.png)_
+    _Avec essai: 100 €. - sans séance d'essai: 60 €_
+
+  #### _![](/uploads/LOGO-ZAO-FUSHIA-2-LIGNES.png)_
 more: Sur base d’une analyse de vos couleurs, je vous propose un cours d’auto maquillage
   (pour tous les jours ou pour une occasion). Je vous apprends les gestes, mais également
   à choisir les couleurs qui s’accordent avec vos couleurs naturelles (peau, yeux,
