@@ -77,6 +77,9 @@ services:
     Rituel reconnexion (Altearah) – 1h30 – 90€
     Olfaction et massage (Altearah) – 1h – 60€
   prices:
+  - description: Douceur Orientale (Nafha)
+    duration: 30 min.
+    price: 45 €
   - description: Modelage et soin du cuir chevelu (Nafha)
     duration: 'Modelage: 30 min. / Soin complet: 45 min.'
     price: 'Modelage: 45 € / Soin complet: 60 €'
