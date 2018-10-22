@@ -47,7 +47,7 @@ services:
     duration: 1h30
     price: 90€
   description: ''
-  photo: ''
+  photo: "/uploads/eau-de-parfum-pourpre.jpg"
 - title: Soins visage
   prices:
   - description: Instant Pureté (Nafha)
