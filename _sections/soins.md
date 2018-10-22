@@ -76,7 +76,10 @@ services:
     Olfaction, gommage et enveloppement détox (Altearah) – 1h30 – 90€
     Rituel reconnexion (Altearah) – 1h30 – 90€
     Olfaction et massage (Altearah) – 1h – 60€
-  prices: []
+  prices:
+  - description: Olfaction et massage (Altearah)
+    duration: 1h
+    price: 60 €
 - title: Massage assis
   photo: "/uploads/p1010827a.jpg"
   description: Originaire du Japon, où il est d’ailleurs considéré comme une médecine,
