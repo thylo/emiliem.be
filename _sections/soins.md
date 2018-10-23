@@ -61,8 +61,8 @@ services:
     price: 80 €
   - description: 'Soin visage Altearah: Oxygène essentielle, Energie essentielle,
       Pureté essentielle, Plénitude essentielle ou Sérénité essentielle'
-    duration: 'Version courte: 1h  / Version longue: 1h30'
-    price: 'Version courte: 60 €  / Version longue: 80 €'
+    duration: '1h  '
+    price: '60 € '
   description: ''
   photo: "/uploads/NAFHA-Logo-300x218.jpg"
 - title: Soins du corps
