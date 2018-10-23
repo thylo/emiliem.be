@@ -73,8 +73,8 @@ services:
     duration: 30 min.
     price: 45 €
   - description: Modelage et soin du cuir chevelu (Nafha)
-    duration: 'Modelage: 30 min. / Soin complet: 45 min.'
-    price: 'Modelage: 45 € / Soin complet: 60 €'
+    duration: 45 min
+    price: 60 €
   - description: Rituel Détente (Nafha)
     duration: 1h30
     price: 85 €
