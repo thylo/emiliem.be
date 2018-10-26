@@ -8,10 +8,11 @@
         {%for service in page.services%}
         <li class="o-list-bare__item">
             <div class="c-consulting-service">
-                <div class="c-consulting-service__image">
-                    {%include cloudinary.html path=service.photo alt=service.title options="w_250,h_250,c_fill,g_face,f_auto" %}
-                </div>
+
                 <div class="c-consulting-service__content">
+                    <div class="u-margin-bottom">
+                        {%include cloudinary.html path=service.photo alt=service.title options="w_250,h_250,c_fill,g_face,f_auto" %}
+                    </div>
                     <h3>{{service.title}}</h3>
                     <div class="">
                         <div class="c-service__description">{{service.description | markdownify}}</div>
