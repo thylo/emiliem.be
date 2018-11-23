@@ -64,7 +64,7 @@ services:
     duration: '1h  '
     price: '60 € '
   description: ''
-  photo: "/uploads/NAFHA-Logo-300x218.jpg"
+  photo: "/uploads/nafha.jpg"
 - title: Soins du corps
   photo: "/uploads/NouveauLogo-300x147.jpg"
   description: ''
