@@ -66,7 +66,7 @@ services:
   description: ''
   photo: "/uploads/nafha.jpg"
 - title: Soins du corps
-  photo: "/uploads/NouveauLogo-300x147.jpg"
+  photo: "/uploads/Affiche-massage-HD.jpg"
   description: ''
   prices:
   - description: 'Douceur Orientale (Nafha) - Zone au choix : dos, pieds, cuir chevelu'
