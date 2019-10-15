@@ -6,12 +6,10 @@ description: |-
 
   * Cours d’auto-maquillage : je vous accompagne pour que vous puissiez trouver la technique et le maquillage qui convient à vos envies et votre pratique quotidienne.
 
-    _Analyse rapide des couleurs + cours de maquillage + nuancier personnalisé + fiche technique: 2h 90€_
+    _1h30 70€_
+  * Maquillage pour une occasion (avec essai et rouge à lèvres offert)
 
-
-  * Maquillage pour une occasion (avec ou sans essai)
-
-    _Avec essai: 100 €. - sans séance d'essai: 60 €_
+    _100 €_
 
   #### _![](/uploads/LOGO-ZAO-FUSHIA-2-LIGNES.png)_
 more: Sur base d’une analyse de vos couleurs, je vous propose un cours d’auto maquillage
