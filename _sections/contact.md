@@ -2,10 +2,12 @@
 title: A propos
 template: contact
 date: '2018-08-15T16:20:00.000+00:00'
-introduction: |-
-  Le bien-être passe par une beauté holistique, qui considère tous les aspects de notre être: émotionnels, spirituels, physiques... Ceux-ci s'unissent dans une harmonie pour refléter notre rayonnement largement.
-
-  Les soins que je vous propose sont guidés par vos émotions, votre énergie, votre couleur du moment pour une reconnexion et une harmonisation complète.
+introduction: "Vous avez l'impression de courir sans arrêt? De ne pas vivre pleinement
+  l'instant présent? D'avoir la tête qui bouillonne (la charge mentale, ça vous parle?)?
+  \n\nDites stop, le temps d'un soin, reconnectez-vous à vous, tout simplement...votre
+  corps, vos émotions, votre détente... \n\nEt puis après? Je vous donnerai des conseils
+  pour prolonger le bien-être à la maison.\n\nOffrez-vous ce moment de pause, vous
+  le méritez ♡"
 weight: 10
 subtitle: Je m'adapte à vos besoins
 contact: |-
