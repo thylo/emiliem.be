@@ -50,21 +50,26 @@ services:
   photo: "/uploads/eau-de-parfum-pourpre.jpg"
 - title: Soins visage
   prices:
-  - description: Instant Pureté (Nafha)
+  - price: 5 €
+    description: Drainage lympho-énergétique du visage (en option)
+    duration: 10 min
+  - description: Soin "Coup d'éclat"
     duration: 30 min
-    price: 30 €
-  - description: Soin visage Oriental (Nafha)
+    price: 35 €
+  - description: Soin "Eclat intense"
+    duration: 1h
+    price: 60 €
+  - description: Modelage relaxant visage et cuir chevelu
+    duration: 20 min
+    price: 20 €
+  - description: Soin "Yeux doux" (regard frais et défatigué)
+    duration: '45 min '
+    price: '40 € '
+  - price: 80 €
+    description: 'Soin saisonnier visage '
     duration: 1h30
-    price: 90 €
-  - description: Soin visage Intemporel (Nafha)
-    duration: 1h15
-    price: 80 €
-  - description: 'Soin visage Altearah: Oxygène essentielle, Energie essentielle,
-      Pureté essentielle, Plénitude essentielle ou Sérénité essentielle'
-    duration: '1h  '
-    price: '60 € '
   description: ''
-  photo: "/uploads/nafha.jpg"
+  photo: "/uploads/spa-facial-treatment.jpg"
 - title: Soins du corps
   photo: "/uploads/Affiche-massage-HD.jpg"
   description: ''
@@ -109,7 +114,7 @@ services:
   - description: ''
     duration: 20 minutes
     price: 20€
-weight: 2
+weight: "2"
 menu:
   header:
     weight: 4
