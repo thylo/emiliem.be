@@ -50,9 +50,6 @@ services:
   photo: "/uploads/eau-de-parfum-pourpre.jpg"
 - title: Soins visage
   prices:
-  - price: 5 €
-    description: Drainage lympho-énergétique du visage (en option)
-    duration: 10 min
   - description: Soin "Coup d'éclat"
     duration: 30 min
     price: 35 €
@@ -68,6 +65,9 @@ services:
   - price: 80 €
     description: 'Soin saisonnier visage '
     duration: 1h30
+  - price: 5 €
+    description: Drainage lympho-énergétique du visage (en option)
+    duration: 10 min
   description: ''
   photo: "/uploads/spa-facial-treatment.jpg"
 - title: Soins du corps
