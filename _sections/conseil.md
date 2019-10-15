@@ -9,6 +9,9 @@ services:
   - description: 'Nuances d''automne - soin corps '
     duration: 1h
     price: 60 €
+  - description: 'Plénitude d''automne - Soin visage '
+    duration: 1h30
+    price: 80 €
   description: ''
   photo: ''
 weight: "2"
