@@ -6,7 +6,7 @@ description: "Les soins saisonniers Altearah sont des soins visage et corps spé
 services:
 - title: 'Automne '
   prices:
-  - description: 'Nuances d''automne - soin corps '
+  - description: 'Nuances d''automne - Soin corps '
     duration: 1h
     price: 60 €
   - description: 'Plénitude d''automne - Soin visage '
