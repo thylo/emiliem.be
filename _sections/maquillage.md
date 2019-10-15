@@ -11,7 +11,7 @@ description: |-
 
     _100 €_
 
-  #### _![](/uploads/LOGO-ZAO-FUSHIA-2-LIGNES.png)_
+  #### _![](/uploads/71374143_2703338866343412_5450034312864858112_n.jpg)![](/uploads/LOGO-ZAO-FUSHIA-2-LIGNES.png)_
 more: Sur base d’une analyse de vos couleurs, je vous propose un cours d’auto maquillage
   (pour tous les jours ou pour une occasion). Je vous apprends les gestes, mais également
   à choisir les couleurs qui s’accordent avec vos couleurs naturelles (peau, yeux,
