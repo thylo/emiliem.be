@@ -74,46 +74,21 @@ services:
   photo: "/uploads/Affiche-massage-HD.jpg"
   description: ''
   prices:
-  - description: 'Douceur Orientale (Nafha) - Zone au choix : dos, pieds, cuir chevelu'
-    duration: 30 min.
-    price: 45 €
-  - description: Modelage et soin du cuir chevelu (Nafha)
-    duration: 45 min
-    price: 60 €
-  - description: Rituel Détente (Nafha)
-    duration: 1h30
-    price: 85 €
-  - description: Olfaction et gommage (Altearah)
-    duration: 40 min
-    price: 40 €
-  - description: Olfaction, gommage et massage (Altearah)
-    duration: 1h30
-    price: 90 €
-  - description: Olfaction, gommage et enveloppement détox (Altearah)
-    duration: 1h30
-    price: 90 €
-  - description: Rituel Reconnexion (Altearah)
-    duration: 1h30
-    price: 90 €
-  - description: Olfaction et massage (Altearah)
+  - description: Drainage lympho-énergétique corps et visage
+    duration: 1h15
+    price: 70 €
+  - description: Massage harmonisant
     duration: 1h
     price: 60 €
-- title: Massage assis
-  photo: "/uploads/p1010827a.jpg"
-  description: Originaire du Japon, où il est d’ailleurs considéré comme une médecine,
-    le shiatsu signifie « pression des doigts ». Le massage assis libère la circulation
-    d’énergie en utilisant des techniques de shiatsu telles que des pressions sur
-    des points situés le long des méridiens, des percussions, des tapotements et des
-    étirements. Ce massage permet de réduire le stress et les tensions. Pratiqué régulièrement,
-    il augmente la créativité et la concentration. Tonifiant et stimulant, le massage
-    assis permet également de se relaxer en profondeur.Le massage se donne sur une
-    personne habillée, assise sur une chaise ergonomique. Une séance dure 15 minutes
-    et permet de masser les épaules, la nuque, la tête, les bras, les mains, le dos,
-    les hanches et les jambes.
-  prices:
-  - description: ''
-    duration: 20 minutes
-    price: 20€
+  - description: Soin saisonnier
+    duration: 1h
+    price: 60 €
+  - description: Soin du dos (gommage - massage - drainage)
+    duration: 40 min
+    price: 40 €
+  - description: Massage assis sur personne habillée (sur chaise de massage)
+    duration: 20 min
+    price: 20 €
 weight: "2"
 menu:
   header:
