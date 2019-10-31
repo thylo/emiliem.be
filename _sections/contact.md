@@ -9,7 +9,7 @@ introduction: "Vous avez l'impression de courir sans arrêt? De ne pas vivre ple
   pour prolonger le bien-être à la maison.\n\nOffrez-vous ce moment de pause, vous
   le méritez ♡"
 weight: 10
-subtitle: Je m'adapte à vos besoins
+subtitle: ''
 contact: |-
   #### N'hésitez pas à me contacter pour toute question et construction de votre programme personalisé
 
