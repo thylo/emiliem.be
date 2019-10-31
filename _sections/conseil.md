@@ -29,7 +29,6 @@ weight: "2"
 menu:
   header:
     weight: 2
-    title: Conseil en image
     uid: conseil
 
 ---
