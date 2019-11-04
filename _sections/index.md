@@ -57,7 +57,7 @@ home_links:
   image: "/uploads/p1010851a.jpg"
 fieldset: home
 weight: 1
-layout: ''
+layout: 'default'
 menu:
   header:
     weight: 1
