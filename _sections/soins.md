@@ -89,7 +89,7 @@ services:
   - description: Massage assis sur personne habillée (sur chaise de massage)
     duration: 20 min
     price: 20 €
-weight: "2"
+weight: 2
 menu:
   header:
     weight: 4

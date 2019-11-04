@@ -25,7 +25,7 @@ services:
     Rituel d'automne
     Radiance, luminosité, fermeté, hydratation et nutrition pour vous permettre de vous aligner et vous centrer dans votre profondeur.
   photo: "/uploads/Capture d’écran 2019-07-18 à 15.02.02.png"
-weight: "2"
+weight: 2
 menu:
   header:
     weight: 2
