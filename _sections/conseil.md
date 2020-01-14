@@ -39,7 +39,7 @@ services:
     qui allie les bienfaits du sel de l'Himalaya et de l'aromathérapie, permet de
     nettoyer, relaxer et vitaliser les différentes structures du corps (osseuse, musculaire,
     énergétique, psycho-émotionnelle, circulatoire)."
-  photo: ''
+  photo: "/uploads/photo altearah couleurs hiver.jpg"
 - title: 'Automne '
   prices:
   - description: 'Nuances d''automne - Soin corps '
