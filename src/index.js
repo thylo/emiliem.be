@@ -1,3 +1,3 @@
-import './index.css'
+import './scss/emiliem.scss'
 
 console.log('Hello kirby!')

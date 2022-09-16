@@ -1,1 +1,5 @@
-Title: Kirby-Vite-Basic-Kit
+Title: Site Title
+
+----
+
+Description: EmilieM - Conseil en image - maquillage - massage

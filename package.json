@@ -13,8 +13,12 @@
   "license": "MIT",
   "devDependencies": {
     "concurrently": "^7.1.0",
+    "sass": "^1.54.9",
     "shx": "^0.3.4",
     "vite": "^3.0.0",
     "vite-plugin-live-reload": "^3.0.0"
+  },
+  "dependencies": {
+    "inuitcss": "^6.0.0"
   }
 }
