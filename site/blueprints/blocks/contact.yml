@@ -1,0 +1,16 @@
+name: Contact
+fields:
+  title:
+    label:
+      fr: Titre
+      en: Title
+    type: text
+    required: true
+  body:
+    label: Contact
+    type: writer
+    required: true
+  contact_image:
+    type: files
+    required: true
+    multiple: false

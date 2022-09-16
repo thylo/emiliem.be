@@ -1,0 +1,10 @@
+name: Hero
+icon: grid-full
+tabs:
+  content:
+    fields:
+      hero_image:
+        label: Image
+        type: files
+        required: true
+        multiple: false

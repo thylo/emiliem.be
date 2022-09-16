@@ -1,0 +1,16 @@
+name: Content
+fields:
+  title:
+    label:
+      fr: Titre
+      en: Title
+    type: text
+  body:
+    label:
+      en: description
+    type: writer
+  section_image:
+    label: Image
+    type: files
+    multiple: false
+

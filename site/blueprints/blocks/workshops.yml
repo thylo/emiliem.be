@@ -1,0 +1,38 @@
+name: Workshops
+fields:
+  title:
+    label: Titre
+    type: text
+  workshops:
+    label:
+      fr: Ateliers
+      en: Workshops
+    type: structure
+    fields:
+      title:
+        label:
+          fr: Titre
+          en: Title
+        type: text
+      description:
+        label: Description
+        type: writer
+      workshop_image:
+        label: Image
+        type: files
+        multiple: false
+  prices:
+    type: structure
+    fields:
+      description:
+        type: writer
+        required: true
+      price:
+        label:
+          fr: Prix
+          en: Price
+        type: text
+        required: true
+      duration:
+        type: text
+

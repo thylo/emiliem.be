@@ -1,0 +1,23 @@
+title: Site
+
+tabs:
+  pages:
+    sections:
+      pages:
+        type: pages
+  seo:
+    label: SEO
+    icon: search
+    fields:
+      description:
+        label: Description
+        type: textarea
+  menu:
+    label: Menu
+    icon: nav
+    fields:
+      mainMenu:
+        type: pages
+        label: Main menu pages
+
+
