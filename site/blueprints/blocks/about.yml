@@ -10,3 +10,8 @@ fields:
     label: Contact
     type: writer
     required: true
+  background_image:
+    label: Background image
+    type: files
+    multiple: false
+    required: true

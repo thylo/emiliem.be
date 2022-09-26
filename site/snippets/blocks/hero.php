@@ -3,5 +3,7 @@
 ?>
 
 <div class="c-hero">
-  <?= $block->hero_image()->toFile() ?>
+    <img
+            src="<?= $block->hero_image()->toFile()->url() ?>"
+            srcset="<?= $block->hero_image()->toFile()->srcset() ?>"/>
 </div>

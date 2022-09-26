@@ -1,9 +1,9 @@
 <?php
 /** @var Kirby\Cms\Block $block */
 ?>
-<div class="o-wrapper u-margin-vertical-huge">
+<div class="o-wrapper u-margin-vertical-huge" style="--bg-image:url(<?= $block->section_image()->toFile()->url() ?>)">
   <div class="c-column-overlay">
-    <div class="c-column-overlay__image" style="--bg-image:<?= $block->section_image()->toFile()->url() ?>">
+    <div class="c-column-overlay__image" >
 
     </div>
     <div class="c-column-overlay__content">

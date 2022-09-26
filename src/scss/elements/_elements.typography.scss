@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Soria-Soria';
+  src:url('/assets/Soria-Soria.ttf.woff') format('woff'),
+  url('/assets/Soria-Soria.ttf.svg#Soria-Soria') format('svg'),
+  url('/assets/Soria-Soria.ttf.eot'),
+  url('/assets/Soria-Soria.ttf.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 $inuit-font-size-h1: 36px !default;
 $inuit-font-size-h2: 28px !default;
 $inuit-font-size-h3: 24px !default;
@@ -25,11 +35,13 @@ html, body{
   @include fluid-type($min_width, $max_width, $mod_1*$min_font, $mod_2 *$min_font);
 }
 h1, h2, h3,h4 {
+  font-family: 'Soria-Soria', serif;
   color: #333;
   font-weight: 500;
 }
 
 h1 {
+
   font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem;
   @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2*$mod_2 *$min_font);
   line-height: 1.1em;

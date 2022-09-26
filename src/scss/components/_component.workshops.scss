@@ -1,5 +1,5 @@
 .c-workshops {
-  background: url('../img/index_bg.jpg');
+  background-image: var(--bg-image);
   background-size: cover;
   overflow: hidden;
   &__content {

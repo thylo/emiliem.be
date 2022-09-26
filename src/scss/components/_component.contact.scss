@@ -1,7 +1,7 @@
 .c-contact {
   background: #333;
   &__wrapper {
-    background: #333 url('../img/emilie_contact.png') no-repeat;
+    background: #333 var(--bg-image) no-repeat;
     background-blend-mode: lighten;
     overflow: hidden;
     padding-top: 400px;

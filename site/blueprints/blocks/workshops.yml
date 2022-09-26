@@ -3,6 +3,10 @@ fields:
   title:
     label: Titre
     type: text
+  background_image:
+    type: files
+    multiple: false
+    required: true
   workshops:
     label:
       fr: Ateliers
@@ -24,6 +28,9 @@ fields:
   prices:
     type: structure
     fields:
+      title:
+        type: text
+        required: true
       description:
         type: writer
         required: true

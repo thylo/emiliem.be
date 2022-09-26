@@ -2,10 +2,9 @@
   &__wrapper {
     background: #e9e8e6;
     @include mq($from: tablet) {
-      background: #e9e8e6 url("../img/aloe.jpg") no-repeat;
+      background: #e9e8e6 var(--bg-image) no-repeat;
       background-position: bottom right;
       background-size: cover;
     }
-
   }
 }
