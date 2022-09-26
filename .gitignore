@@ -3,7 +3,6 @@ node_modules/
 
 # Frontend
 /public/assets/
-/public/dist/
 
 # Kirby
 .lock
