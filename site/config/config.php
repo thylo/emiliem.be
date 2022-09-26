@@ -1,5 +1,9 @@
 <?php
 return [
+    'debug' => true,
+    'panel' =>[
+        'install' => true
+    ],
     'thumbs' => [
         'srcsets' => [
             'default' => [
