@@ -23,7 +23,7 @@
   &:before{
     content : "";
     position: absolute;
-    left:$inuit-global-spacing-unit-large / 2;
+    left: $inuit-global-spacing-unit-small;
     top:1em;
     border-radius: 999px;
     background: lighten(#555,5%);

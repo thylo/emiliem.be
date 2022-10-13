@@ -7,9 +7,11 @@ return [
     'thumbs' => [
         'srcsets' => [
             'default' => [
-                '800w' => ['width' => 200, 'quality' => 80],
-                '1024w' => ['width' => 400, 'quality' => 80],
-                '1440w' => ['width' => 800, 'quality' => 80]
+                '320w' => ['width' => 320, 'quality' => 80],
+                '640w' => ['width' => 640, 'quality' => 80],
+                '800w' => ['width' => 800, 'quality' => 80],
+                '1024w' => ['width' => 1024, 'quality' => 80],
+                '1440w' => ['width' => 1440, 'quality' => 80]
             ]
         ]
     ]

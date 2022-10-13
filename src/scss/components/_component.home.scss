@@ -2,6 +2,9 @@
   background-size: cover;
   text-align: center;
   padding: $inuit-global-spacing-unit-huge 0;
+  &__img{
+    max-width: 100%;
+  }
 }
 
 .c-column-overlay {
