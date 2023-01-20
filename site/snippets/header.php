@@ -9,8 +9,6 @@
           content="<?= page()->content()->get('excerpt')->exists() ? page()->content()->get('excerpt') : site()->description() ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <?= css(['https://fonts.googleapis.com/css?family=Playfair+Display:700,700italic,400,400italic']) ?>
-    <?= vite()->client() ?>
     <?= vite()->css() ?>
 </head>
 <body>

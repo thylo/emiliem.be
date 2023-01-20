@@ -2,14 +2,14 @@
 /** @var Kirby\Cms\Block $block */
 ?>
 <div class="o-wrapper u-padding-vertical-huge c-massages">
-  <h1><?= $block->title() ?></h1>
+  <h2 class="c-title-4xl"><?= $block->title() ?></h2>
   <div>
     <?= $block->intro() ?>
   </div>
   <ul class="u-margin-top o-list-bare">
     {%for service in page.services%}
     <li class="o-list-bare__item c-massage">
-      <h3 class="c-massage__title">{{service.title?></h3>
+      <h3 class="c-massage__title c-title-2xl">{{service.title?></h3>
       <div class="o-layout">
         <div class="o-layout__item u-1/2@tablet">
           <div class="c-massage__description">{{service.description()?></div>

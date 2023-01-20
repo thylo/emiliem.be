@@ -4,14 +4,12 @@
 <ul class="o-list-bare u-margin-top c-prices">
 
     <?php foreach ($prices->toStructure() as $price): ?>
-        <li class="o-list-bare__item c-prices__item c-price">
-            <div class="u-padding-small">
-                <h4 class="o-flex-layout__item u-margin-none c-price__title">
+        <li class="o-list-bare__item c-prices__item c-price u-padding-small">
+            <div class="c-price__description">
+                <h4 class="o-flex-layout__item u-margin-bottom-small c-price__title c-title-2xl">
                     <?= $price->title() ?>
                 </h4>
-                <div>
-                    <?= $price->description()->markdown() ?>
-                </div>
+                <?= $price->description()->markdown() ?>
             </div>
             <div class="c-price__meta">
                 <?php if ($price->duration()->isNotEmpty()): ?>

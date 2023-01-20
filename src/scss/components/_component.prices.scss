@@ -12,21 +12,27 @@
 }
 
 .c-price{
-  text-align: center;
   padding-bottom: $inuit-global-spacing-unit-small;
   @include mq($from: tablet){
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: $inuit-global-spacing-unit;
   }
-
   &__title{
     @include mq($from: tablet) {
       text-align: left;
     }
   }
+  &__description{
+    box-sizing: content-box;
+    p{
+      margin: 0;
+    }
+  }
   &__duration{
     color: #555555;
-    font-size: $inuit-font-size-h2;
+    //font-size: $inuit-font-size-h2;
   }
   &__meta{
     flex-shrink: 0;
@@ -34,7 +40,7 @@
   &__price{
     color:#d3ab55;
     font-weight: 800;
-    font-size: $inuit-font-size-h2;
+    //font-size: $inuit-font-size-h2;
   }
 }
 

@@ -1,0 +1,69 @@
+@use "sass:list";
+@use "sass:math";
+@use "sass:map";
+@use "../tools/tools.font-size" as fs;
+
+$titles: (
+  "sm": (
+    "sm": 10px 20px 500,
+    "md": 14px 24px 500,
+  ),
+  "base": (
+    sm: 14px 24px 500,
+    md: 16px 28px 500,
+  ),
+  "lg": (
+    sm: 16px 24px 500,
+    md: 18px 28px 500,
+  ),
+  "xl": (
+    sm: 18px 28px 500,
+    md: 20px 32px 500,
+  ),
+  "2xl": (
+    sm: 20px 32px 500,
+    md: 24px 34px 500,
+  ),
+  "3xl": (
+    sm: 24px 34px 500,
+    md: 32px 42px 500,
+  ),
+  "4xl": (
+    sm: 32px 42px 500,
+    md: 40px 48px 500,
+  ),
+  "5xl": (
+    sm: 40px 48px 500,
+    md: 48px 54px 500,
+  ),
+  "6xl": (
+    sm: 48px 54px 500,
+    md: 64px 74px 500,
+  ),
+  "7xl": (
+    sm: 64px 74px 500,
+    md: 80px 90px 500,
+  ),
+  "8xl": (
+    sm: 80px 90px 500,
+    md: 92px 100px 500,
+  ),
+);
+
+@mixin typographic-class($prefix, $name, $value) {
+  .#{$prefix}-#{$name} {
+    $sm: map.get($value, sm);
+    $md: map.get($value, md);
+    //
+    font-family: "Soria-Soria", serif;
+    color: #333;
+    font-size: fs.fluid(list.nth($sm, 1), list.nth($md, 1));
+    line-height: fs.fluid(list.nth($sm, 2), list.nth($md, 2));
+    font-weight: list.nth($sm, 3);
+  }
+}
+
+@each $name, $value in $titles {
+  @include typographic-class("c-title", $name, $value);
+}
+

@@ -8,7 +8,7 @@
 @import "./inuitcss/tools/tools.clearfix";
 @import "./inuitcss/tools/tools.hidden";
 @import "../../node_modules/sass-mq/mq";
-@import "./tools/tools.font-size";
+
 //
 //// GENERIC
 @import "./inuitcss/generic/generic.box-sizing";
@@ -17,27 +17,14 @@
 @import "./generic/generic.shared";
 //
 //// ELEMENTS
-//@import "./inuitcss/elements/elements.page";
-//@import "./inuitcss/elements/elements.images";
-//@import "./inuitcss/elements/elements.tables";
-////@import "./elements/elements.headings";
 @import "./elements/elements.typography";
 //
 //// OBJECTS
 ////
 //// Uncomment and add to this section as necessary.
 @import "./inuitcss/objects/objects.wrapper";
-//@import "./inuitcss/objects/objects.layout";
-//@import "./inuitcss/objects/objects.media";
-//@import "./inuitcss/objects/objects.flag";
 @import "./inuitcss/objects/objects.list-bare";
 @import "./inuitcss/objects/objects.list-inline";
-//@import "./inuitcss/objects/objects.box";
-//@import "./inuitcss/objects/objects.block";
-//@import "./inuitcss/objects/objects.ratio";
-//@import "./inuitcss/objects/objects.crop";
-//@import "./inuitcss/objects/objects.table";
-//@import "./inuitcss/objects/objects.pack";
 @import "./objects/objects.flex-layout";
 //
 //// COMPONENTS
@@ -47,6 +34,7 @@
 @import "./components/components.buttons";
 @import "./components/components.home-links";
 @import "./components/components.split";
+@import "./components/components.typography";
 
 @import "./components/component.home";
 @import "./components/component.prices";
@@ -64,7 +52,6 @@
 //// Only set this to `true` if you are absolutely sure about what you are doing.
 $inuit-offsets: true;
 @import "./inuitcss/utilities/utilities.widths";
-@import "./inuitcss/utilities/utilities.headings";
 @import "./inuitcss/utilities/utilities.spacings";
 @import "./inuitcss/utilities/utilities.responsive-spacings";
 @import "./inuitcss/utilities/utilities.print";

@@ -7,7 +7,7 @@
             <div class="o-layout">
                 <div class="o-layout__item u-1/2@tablet u-1/2@desktop">
                     <div>
-                        <h1><?= $block->title() ?></h1>
+                        <h2 class="c-title-4xl u-margin-bottom-large"><?= $block->title() ?></h2>
                         <?= $block->body()->markdown() ?>
                     </div>
                 </div>
