@@ -3,7 +3,9 @@
   background: white;
   text-align: center;
   @include mq($from: tablet) {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   &__link {
@@ -12,11 +14,24 @@
     color: #cc8776;
     display: block;
     @include mq($from: tablet) {
-      padding: $inuit-global-spacing-unit-small;
+      padding: $inuit-global-spacing-unit-tiny $inuit-global-spacing-unit;
       display: inline-block;
+
     }
-    &.active {
-      color: #222222;
+    &.active{
+      font-weight: 600;
+      color: darken(#cc8776, 10%);
+      position: relative;
+      &:before{
+        content:'';
+        border-bottom: 2px solid darken(#cc8776, 10%);
+        position: absolute;
+        width: 35%;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+      }
+
     }
   }
   &__logo {
@@ -26,6 +41,7 @@
     @include mq($until: tablet) {
       display: block;
     }
+
   }
 }
 

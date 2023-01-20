@@ -1,7 +1,7 @@
 <?php
 /** @var Kirby\Cms\FIeld $prices */
 ?>
-<ul class="o-list-bare u-margin-top c-prices">
+<ul class="o-list-bare c-prices">
 
     <?php foreach ($prices->toStructure() as $price): ?>
         <li class="o-list-bare__item c-prices__item c-price u-padding-small">

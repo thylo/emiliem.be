@@ -1,0 +1,6 @@
+.l-app{
+  padding-top: $inuit-global-spacing-unit-large;
+  @include mq($from: tablet) {
+    padding:0;
+  }
+}

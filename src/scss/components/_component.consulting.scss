@@ -1,5 +1,13 @@
 .c-consulting-services{
 }
+
+.l-consulting-service{
+  @include mq($from: tablet) {
+    display: grid;
+    grid-template-columns: minmax(20vw, 320px) 1fr;
+    gap: $inuit-global-spacing-unit-large;
+  }
+}
 .c-consulting-service{
   display: flex;
   flex-direction: column;
@@ -8,6 +16,9 @@
   @include mq($from: tablet) {
     flex-direction: row;
   }
+  &__title{
+    text-align: center;
+  }
   &__content{
     flex:1;
     @include mq($from: tablet) {
@@ -15,17 +26,13 @@
     }
   }
   &__image{
-    width:250px;
-    height:250px;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-    margin-bottom: $inuit-global-spacing-unit;
-    @include mq($from: tablet) {
-      margin-right: $inuit-global-spacing-unit;
-    }
+    text-align: center;
     img{
-      width: auto;
-      height: auto;
-      margin: 0px;
+      width:250px;
+      height:250px;
+      border-radius: 9999rem;
+      overflow: hidden;
+      margin: 0;
     }
   }
 }

@@ -1,4 +1,5 @@
 <?php snippet('header') ?>
+<div class="l-app">
 <?php foreach (page()->sections()->toBlocks() as $block): ?>
   <div id="<?= $block->id() ?>" class="o-section block block-type-<?= $block->type() ?>">
     <?php snippet('blocks/' . $block->type(), [
@@ -7,4 +8,5 @@
     ]) ?>
   </div>
 <?php endforeach ?>
+</div>
 <?php snippet('footer') ?>
