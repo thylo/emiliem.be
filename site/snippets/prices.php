@@ -14,13 +14,13 @@
             <div class="c-price__meta">
                 <?php if ($price->duration()->isNotEmpty()): ?>
                     <span class="u-padding-small c-price__duration">
-                    <?= svg("/assets/img/svg/watch.svg") ?>
-                    <span><?= $price->duration() ?></span>
-                </span>&nbsp;-&nbsp;
+                        <span><?= $price->duration() ?></span>
+                        <?= svg("/assets/img/svg/watch.svg") ?>
+                    </span>
                 <?php endif; ?>
                 <span class="u-padding-small c-price__price">
-              <?= $price->price() ?>
-            </span>
+                    <?= $price->price() ?>
+                </span>
             </div>
         </li>
     <?php endforeach; ?>

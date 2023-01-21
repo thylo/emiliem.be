@@ -32,9 +32,13 @@
   }
   &__duration{
     color: #555555;
+    display: flex;
+    align-items: center;
     //font-size: $inuit-font-size-h2;
   }
   &__meta{
+    display: flex;
+    align-items: center;
     flex-shrink: 0;
   }
   &__price{
