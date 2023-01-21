@@ -1,3 +1,5 @@
+@use "sass:color";
+
 .c-workshops {
   background-image: var(--bg-image);
   background-size: cover;
@@ -7,28 +9,36 @@
     border: 1px solid darken(white, 20%);
     margin: $inuit-global-spacing-unit;
     padding: $inuit-global-spacing-unit;
-    @include mq($from: tablet){
+    @include mq($from: tablet) {
       margin: $inuit-global-spacing-unit-large;
       padding: $inuit-global-spacing-unit-large;
     }
-    @include mq($from: desktop){
+    @include mq($from: desktop) {
       margin: $inuit-global-spacing-unit-huge;
     }
   }
+  &__item {
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: $inuit-global-spacing-unit-small;
+  }
 }
 
-.c-workshop{
-  padding-left: $inuit-global-spacing-unit-large;
+.c-workshop {
+  border: 1px solid color.mix(#d3ab55, #fff, $weight: 30%);
+  border-radius: 1rem;
+  background: color.mix(#d3ab55, #fff, $weight: 16%);
+  padding: $inuit-global-spacing-unit-small;
+  aspect-ratio: 16/9;
   position: relative;
-  &:before{
-    content : "";
-    position: absolute;
-    left: $inuit-global-spacing-unit-small;
-    top:1em;
-    border-radius: 999px;
-    background: lighten(#555,5%);
-    width: .5em;
-    height: .5em;
-    transform: translate(-50%,0);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: $inuit-global-spacing-unit;
+  &__price {
+    color: #d3ab55;
+    font-weight: 800;
   }
 }
