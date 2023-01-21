@@ -2,11 +2,18 @@ import "./scss/emiliem.scss";
 
 let last_known_scroll_position = 0;
 let ticking = false;
+let scrollMenu;
 
-const menu = document.getElementById("js-menu-scroll"),
+const menu = document.getElementById("js-menu"),
   toggle = document.getElementById("js-menu-toggle"),
   close = document.getElementById("js-menu-close"),
   sections = [...document.querySelectorAll("section")];
+
+if (menu){
+  scrollMenu = menu.cloneNode(true);
+  scrollMenu.classList.add('c-menu--scroll');
+  menu.parentElement.appendChild(scrollMenu);
+}
 
 if (toggle && close) {
   toggle.addEventListener("click", (e) => {
@@ -29,31 +36,13 @@ const mod = 3;
 function doSomething(scroll_pos) {
   const navHeight = menu.clientHeight;
   if (navHeight * mod < scroll_pos && !menu.classList.contains("scroll")) {
-    menu.classList.add("scroll");
+    scrollMenu.classList.add("scroll");
   } else if (
     navHeight * mod > scroll_pos * mod &&
-    menu.classList.contains("scroll")
+      scrollMenu.classList.contains("scroll")
   ) {
-    menu.classList.remove("scroll");
+    scrollMenu.classList.remove("scroll");
   }
-
-  sections.forEach(function (section) {
-    const top = section.offsetTop - navHeight,
-      bottom = top + section.clientHeight;
-
-    if (scroll_pos >= top - 2 * navHeight && scroll_pos <= bottom) {
-      [...menu.querySelectorAll(".c-menu__link")].forEach((link) => {
-        link.classList.remove("active");
-      });
-      menu
-        .querySelector(`[href='#${section.getAttribute("id")}']`)
-        .classList.add("active");
-      sections.forEach((link) => {
-        link.classList.remove("active");
-      });
-      section.classList.add("active");
-    }
-  });
 }
 
 window.addEventListener("scroll", function (e) {
